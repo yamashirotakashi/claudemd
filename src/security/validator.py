@@ -41,6 +41,8 @@ class SecurityValidator:
         r'/sys/',   # System filesystem
         r'C:\\Windows\\',  # Windows system
         r'C:\\Program Files',  # Program files
+        r'^//',    # UNC paths
+        r'^\\\\',  # Windows UNC paths
     ]
     
     def __init__(self):
@@ -63,6 +65,12 @@ class SecurityValidator:
         if not file_path:
             raise ValueError("File path cannot be empty")
         
+        # Check for forbidden patterns in the original path first
+        for pattern in self.FORBIDDEN_PATTERNS:
+            if re.search(pattern, file_path, re.IGNORECASE):
+                self.log_security_event("FORBIDDEN_PATH", f"Forbidden pattern detected: {pattern} in {file_path}")
+                return False
+        
         # Convert to Path object for safer handling
         try:
             path = Path(file_path).resolve()
@@ -70,7 +78,7 @@ class SecurityValidator:
             self.log_security_event("INVALID_PATH", f"Malformed path: {file_path}, error: {e}")
             return False
         
-        # Check for forbidden patterns
+        # Check for forbidden patterns in resolved path too
         path_str = str(path)
         for pattern in self.FORBIDDEN_PATTERNS:
             if re.search(pattern, path_str, re.IGNORECASE):
@@ -158,9 +166,15 @@ class SecurityValidator:
         
         # Validate allowed extensions
         extensions = config.get('allowed_extensions', [])
-        if not isinstance(extensions, list) or not all(ext.startswith('.') for ext in extensions):
+        if not isinstance(extensions, list):
             self.log_security_event("INVALID_EXTENSIONS", "Invalid allowed_extensions format")
             return False
+        
+        # Check each extension is a string and starts with dot
+        for ext in extensions:
+            if not isinstance(ext, str) or not ext.startswith('.'):
+                self.log_security_event("INVALID_EXTENSIONS", "Invalid allowed_extensions format")
+                return False
         
         return True
     
@@ -175,7 +189,7 @@ class SecurityValidator:
         import datetime
         
         event = {
-            'timestamp': datetime.datetime.utcnow().isoformat(),
+            'timestamp': datetime.datetime.now(datetime.timezone.utc).isoformat(),
             'type': event_type,
             'message': message
         }
