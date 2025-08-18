@@ -15,6 +15,8 @@ from typing import Optional, List, Dict, Any
 import validators
 
 
+import tempfile
+
 class SecurityValidator:
     """
     Comprehensive security validator for the token reduction system.
@@ -228,8 +230,13 @@ if __name__ == "__main__":
     print("Running security validation checks...")
     
     # Test cases
+    # Create secure temporary file path for testing
+    temp_dir = tempfile.gettempdir()
+    secure_test_file = os.path.join(temp_dir, "test.md")
+    
+    #
     test_cases = [
-        "/tmp/test.md",  # Valid
+        secure_test_file,  # Valid - uses dynamic temporary directory
         "../../../etc/passwd",  # Invalid - path traversal
         "normal_file.txt",  # Valid
         "C:\\Windows\\system32\\config",  # Invalid - Windows system

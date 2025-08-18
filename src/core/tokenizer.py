@@ -280,7 +280,7 @@ class ClaudeMdTokenizer:
         unique_blocks = []
         
         for block in blocks:
-            block_hash = hashlib.md5(block.strip().encode()).hexdigest()
+            block_hash = hashlib.sha256(block.strip().encode()).hexdigest()
             if block_hash not in seen_hashes:
                 seen_hashes.add(block_hash)
                 unique_blocks.append(block)
