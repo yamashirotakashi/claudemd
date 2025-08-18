@@ -289,6 +289,309 @@ Example 4: Fourth"""
         assert "Some content here" in optimized
         assert "More content" in optimized
 
+    def test_advanced_semantic_similarity(self):
+        """Test advanced semantic similarity calculation."""
+        # Setup test content
+        text1 = "Configure the API endpoint authentication"
+        text2 = "Setup API endpoint authentication configuration"
+        text3 = "Install the database server"
+        
+        context_analysis = {
+            'content_type': 'technical_docs',
+            'redundancy_patterns': {}
+        }
+        
+        # Test high similarity for related content
+        similarity_high = self.tokenizer._calculate_advanced_semantic_similarity(text1, text2, context_analysis)
+        assert similarity_high > 0.6, f"Expected high similarity, got {similarity_high}"
+        
+        # Test low similarity for unrelated content
+        similarity_low = self.tokenizer._calculate_advanced_semantic_similarity(text1, text3, context_analysis)
+        assert similarity_low < 0.4, f"Expected low similarity, got {similarity_low}"
+        
+        # Test identical content
+        similarity_identical = self.tokenizer._calculate_advanced_semantic_similarity(text1, text1, context_analysis)
+        assert similarity_identical > 0.9, f"Expected very high similarity for identical text, got {similarity_identical}"
+
+    def test_semantic_feature_extraction(self):
+        """Test semantic feature extraction."""
+        content = """
+        Configure the API endpoint with authentication parameters.
+        This method implements secure token validation for database access.
+        The optimization algorithm analyzes semantic patterns.
+        """
+        
+        context_analysis = {
+            'content_type': 'technical_docs'
+        }
+        
+        features = self.tokenizer._extract_semantic_features(content, context_analysis)
+        
+        # Verify feature extraction
+        assert isinstance(features, dict)
+        assert 'key_terms' in features
+        assert 'technical_terms' in features
+        assert 'action_words' in features
+        assert 'domain_concepts' in features
+        assert 'semantic_density' in features
+        assert 'information_type' in features
+        
+        # Check for expected technical terms
+        assert 'authentication' in features['technical_terms']
+        assert 'database' in features['technical_terms']
+        
+        # Check for expected domain concepts
+        assert any(term in features['domain_concepts'] for term in ['optimization', 'algorithm', 'semantic'])
+        
+        # Verify semantic density calculation
+        assert 0.0 <= features['semantic_density'] <= 1.0
+
+    def test_semantic_structure_similarity(self):
+        """Test semantic structure similarity."""
+        # Structure with headers and lists
+        text1 = """
+        # Configuration
+        - API endpoint
+        - Authentication
+        ```
+        config.json
+        ```
+        """
+        
+        # Similar structure  
+        text2 = """
+        # Setup
+        - Database connection
+        - Security settings
+        ```
+        setup.py
+        ```
+        """
+        
+        # Different structure
+        text3 = "Simple paragraph with no special formatting."
+        
+        # Test similar structures
+        similarity_high = self.tokenizer._calculate_semantic_structure_similarity(text1, text2)
+        assert similarity_high > 0.7, f"Expected high structure similarity, got {similarity_high}"
+        
+        # Test different structures
+        similarity_low = self.tokenizer._calculate_semantic_structure_similarity(text1, text3)
+        assert similarity_low < 0.3, f"Expected low structure similarity, got {similarity_low}"
+
+    def test_enhanced_semantic_signature(self):
+        """Test enhanced semantic signature generation."""
+        content = "Configure API authentication with secure tokens for database access"
+        context_analysis = {
+            'content_type': 'technical_docs',
+            'redundancy_patterns': {}
+        }
+        
+        # Generate signature
+        signature = self.tokenizer._generate_semantic_signature(content, context_analysis)
+        
+        # Verify signature properties
+        assert isinstance(signature, str)
+        assert len(signature) == 24  # 192-bit signature in hex
+        assert all(c in '0123456789abcdef' for c in signature)
+        
+        # Test consistency - same content should produce same signature
+        signature2 = self.tokenizer._generate_semantic_signature(content, context_analysis)
+        assert signature == signature2
+        
+        # Test different content produces different signature
+        different_content = "Install database server with security configuration"
+        signature3 = self.tokenizer._generate_semantic_signature(different_content, context_analysis)
+        assert signature != signature3
+
+    def test_semantic_clustering(self):
+        """Test advanced semantic clustering."""
+        sections = {
+            'config1': 'Configure API endpoint authentication',
+            'config2': 'Setup API authentication configuration',  
+            'database1': 'Install database server with security',
+            'database2': 'Setup database security configuration',
+            'general': 'General information about the project'
+        }
+        
+        context_analysis = {
+            'content_type': 'project_config',
+            'redundancy_patterns': {}
+        }
+        
+        clusters = self.tokenizer._perform_advanced_semantic_clustering(sections, context_analysis)
+        
+        # Verify cluster structure
+        assert isinstance(clusters, dict)
+        assert any(len(cluster_list) > 0 for cluster_list in clusters.values())
+        
+        # Find clusters with multiple sections (similar content should be clustered)
+        multi_section_clusters = [
+            cluster for cluster_list in clusters.values() 
+            for cluster in cluster_list 
+            if cluster['cluster_size'] > 1
+        ]
+        
+        assert len(multi_section_clusters) > 0, "Expected to find clusters with multiple similar sections"
+        
+        # Verify cluster properties
+        for cluster in multi_section_clusters:
+            assert 'deduplication_potential' in cluster
+            assert 'preservation_priority' in cluster
+            assert 'semantic_signature' in cluster
+            assert 0.0 <= cluster['deduplication_potential'] <= 1.0
+            assert 0.0 <= cluster['preservation_priority'] <= 1.0
+
+    def test_advanced_semantic_deduplication(self):
+        """Test complete advanced semantic deduplication system."""
+        content = """
+        # Configuration
+        Configure the API endpoint authentication system.
+        
+        # Setup  
+        Setup API endpoint authentication configuration.
+        
+        # Installation
+        Configure the API authentication endpoint.
+        
+        # Different Topic
+        Install the database server with proper security.
+        """
+        
+        context_analysis = {
+            'content_type': 'technical_docs',
+            'redundancy_patterns': {}
+        }
+        
+        # Apply advanced semantic deduplication
+        deduplicated = self.tokenizer._advanced_semantic_deduplication_system(content, context_analysis)
+        
+        # Verify deduplication occurred
+        assert len(deduplicated) < len(content)
+        
+        # Verify important content is preserved
+        assert 'database' in deduplicated  # Different topic should be preserved
+        
+        # Verify structure is maintained
+        assert '#' in deduplicated  # Headers should be preserved
+
+    def test_semantic_redundancy_removal(self):
+        """Test semantic redundancy removal with advanced understanding."""
+        content = """
+        Please configure the system. Please configure the system properly. 
+        The API endpoint authentication is important. API endpoint authentication configuration is critical.
+        Database security settings must be validated. Security validation is required for database settings.
+        """
+        
+        redundancy_patterns = {
+            'repeated_phrases': {
+                'Please configure the system': 2,
+                'API endpoint authentication': 2,
+                'database security': 2
+            }
+        }
+        
+        # Apply semantic redundancy removal
+        optimized = self.tokenizer._remove_semantic_redundancy(content, redundancy_patterns)
+        
+        # Verify content was reduced
+        assert len(optimized) < len(content)
+        
+        # Verify some repetitive content was removed
+        phrase_count = optimized.lower().count('please configure the system')
+        assert phrase_count <= 1, f"Expected phrase reduction, found {phrase_count} occurrences"
+
+    def test_context_importance_weighting(self):
+        """Test context importance weighting for semantic analysis."""
+        context_analysis = {
+            'content_type': 'project_config',
+            'redundancy_patterns': {}
+        }
+        
+        # Critical content
+        critical_text1 = "Security authentication token configuration"
+        critical_text2 = "Security token authentication setup"
+        
+        # Non-critical content
+        general_text1 = "General information about the project"
+        general_text2 = "Project information and general details"
+        
+        # Test critical content weighting
+        critical_weight = self.tokenizer._calculate_context_importance_weight(
+            critical_text1, critical_text2, context_analysis
+        )
+        
+        # Test general content weighting
+        general_weight = self.tokenizer._calculate_context_importance_weight(
+            general_text1, general_text2, context_analysis
+        )
+        
+        # Critical content should have higher importance weight
+        assert critical_weight > general_weight
+        assert 0.0 <= critical_weight <= 1.0
+        assert 0.0 <= general_weight <= 1.0
+
+    def test_phrase_semantic_importance(self):
+        """Test phrase semantic importance calculation."""
+        content_features = {
+            'key_terms': ['authentication', 'configuration', 'security'],
+            'technical_terms': ['api', 'endpoint', 'token'],
+            'domain_concepts': ['optimization', 'semantic', 'analysis']
+        }
+        
+        # High importance phrase (contains key terms)
+        high_importance_phrase = "API authentication configuration"
+        importance_high = self.tokenizer._calculate_phrase_semantic_importance(
+            high_importance_phrase, content_features
+        )
+        
+        # Low importance phrase (common words)
+        low_importance_phrase = "please note that this is important"
+        importance_low = self.tokenizer._calculate_phrase_semantic_importance(
+            low_importance_phrase, content_features
+        )
+        
+        # Verify importance scoring
+        assert importance_high > importance_low
+        assert 0.0 <= importance_high <= 1.0
+        assert 0.0 <= importance_low <= 1.0
+
+    def test_integrated_semantic_optimization_pipeline(self):
+        """Test the integrated semantic optimization in the main pipeline."""
+        content = """
+        # API Configuration
+        Configure the API endpoint authentication system for secure access.
+        Setup the API authentication configuration properly.
+        
+        # Database Setup
+        Install database server with security configuration.
+        Configure database security settings for safe operation.
+        
+        # Testing
+        Test the authentication system functionality.
+        Validate the security configuration testing.
+        """
+        
+        # Test through main optimization pipeline
+        sections = self.tokenizer._parse_sections(content)
+        optimized_content, notes = self.tokenizer._optimize_content(content, sections)
+        
+        # Verify optimization occurred
+        assert len(optimized_content) < len(content)
+        
+        # Verify semantic optimization was applied
+        semantic_notes = [note for note in notes if 'semantic' in note.lower()]
+        assert len(semantic_notes) > 0, "Expected semantic optimization notes"
+        
+        # Verify clustering was applied
+        clustering_notes = [note for note in notes if 'cluster' in note.lower()]
+        assert len(clustering_notes) > 0, "Expected semantic clustering notes"
+        
+        # Verify important content structure is preserved
+        assert 'API' in optimized_content
+        assert 'Database' in optimized_content
+        assert 'Testing' in optimized_content
+
 
 class TestConvenienceFunctions:
     """Test the convenience functions."""

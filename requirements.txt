@@ -24,3 +24,6 @@ pre-commit>=3.0.0
 click>=8.0.0
 colorama>=0.4.6
 tqdm>=4.64.0
+
+# Machine Learning (for TF-IDF implementation)
+scikit-learn>=1.3.0

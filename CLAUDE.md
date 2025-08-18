@@ -4,6 +4,35 @@
 
 A clean, secure implementation for reducing Claude.md token overhead by 50-70% while maintaining full functionality and security.
 
+## 🚨 MANDATORY SESSION MANAGEMENT RULES
+
+### 1. Phase-Based Session Management
+- **ABSOLUTE REQUIREMENT**: Each Phase must be completed with QualityGate and Serena subagent audits
+- Work MUST be suspended after each TODO completion for mandatory audits
+- Handover.md MUST be updated after every session with implementation details, setbacks, and modification instructions
+
+### 2. Session Resumption Protocol
+- **FIRST ACTION**: Always read handover.md upon session resumption
+- Verify previous phase implementation status and current TODO items
+- Review any modifications requested by auditors before proceeding
+
+### 3. Implementation Tool Restrictions
+- **SERENA SUBAGENT ONLY**: All implementation must use Serena subagent or Serena MCP
+- **FORBIDDEN**: Regular Edit commands, other MCP tools (except Serena)
+- **ABSOLUTE COMPLIANCE**: This restriction is non-negotiable
+
+### 4. Mandatory Audit Requirements
+- **After each TODO completion**: QualityGate subagent audit required
+- **After each TODO completion**: Serena subagent audit required  
+- **Before phase completion**: Both audits must pass before progression
+- **Audit instructions are absolute**: All modification requests must be implemented
+
+### 5. Handover Documentation
+- Record all implementation details in handover.md
+- Document any setbacks or rework themes
+- Include all modification instructions received from auditors
+- Provide complete memory transfer for next session continuation
+
 ## Project Status: Phase 1A - Day 1 Implementation Complete
 
 ### Current Phase: Phase 1A - Foundation (Day 1-3)
@@ -128,16 +157,36 @@ A clean, secure implementation for reducing Claude.md token overhead by 50-70% w
    - `README.md`: Comprehensive project documentation
    - Audit reports copied from previous analysis
 
-#### Next Steps - Phase 1A Day 2
+#### 🚨 MANDATORY WORKFLOW FOR EACH TODO ITEM
+
+#### TODO Completion Protocol
+1. **Implementation**: Use Serena subagent ONLY
+2. **Immediate Suspension**: Stop work after TODO completion
+3. **QualityGate Audit**: Run `[QG]` subagent audit - ABSOLUTE REQUIREMENT
+4. **Serena Audit**: Run Serena subagent audit - ABSOLUTE REQUIREMENT  
+5. **Apply Modifications**: Implement ALL audit instructions (non-negotiable)
+6. **Update Handover**: Record all details in handover.md
+7. **Session End**: Suspend session for next TODO item
+
+#### Audit Command Sequence
+```
+[QG] # Run QualityGate audit after TODO completion
+[serena] # Run Serena semantic audit  
+# Apply ALL modifications requested by both audits
+# Update handover.md with implementation details
+# End session
+```
+
+### Next Steps - Phase 1B Implementation
 1. **Advanced Optimization Algorithms**
-   - Contextual compression techniques
+   - Contextual compression techniques  
    - Smart template detection and optimization
    - Advanced deduplication with semantic analysis
    - Performance optimization for large files
 
 2. **Integration Testing**
    - End-to-end workflow testing
-   - Performance benchmarking
+   - Performance benchmarking  
    - Security penetration testing
    - Error handling validation
 
