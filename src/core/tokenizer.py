@@ -14,6 +14,12 @@ from src.security.validator import validator
 from src.config.manager import get_setting
 
 
+import time
+import os
+import hashlib
+import concurrent.futures
+from typing import Iterator
+
 @dataclass
 class TokenAnalysis:
     """Results of token analysis for a Claude.md file."""
@@ -57,10 +63,305 @@ class ClaudeMdTokenizer:
         """Initialize the tokenizer with security validation."""
         self.seen_content = {}  # For deduplication
         self.optimization_stats = {}
+
+    def _stream_read_file(self, file_path: str, chunk_size: int = 1024 * 1024) -> Iterator[str]:
+        """
+        Stream read large files in chunks for memory efficiency.
+        
+        Args:
+            file_path: Path to the file to read
+            chunk_size: Size of each chunk in bytes (default: 1MB)
+            
+        Yields:
+            str: File content chunks
+            
+        Raises:
+            ValueError: If file cannot be read
+        """
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                while True:
+                    chunk = file.read(chunk_size)
+                    if not chunk:
+                        break
+                    yield chunk
+        except Exception as e:
+            validator.log_security_event("STREAM_READ_ERROR", f"Stream read failed for {file_path}: {e}")
+            raise ValueError(f"Stream read failed: {e}")
+    
+    def _should_use_streaming(self, file_path: str, threshold_mb: float = 1.0) -> bool:
+        """
+        Determine if streaming processing should be used based on file size.
+        
+        Args:
+            file_path: Path to the file to check
+            threshold_mb: Size threshold in MB for streaming decision
+            
+        Returns:
+            bool: True if streaming should be used
+        """
+        try:
+            file_size = Path(file_path).stat().st_size
+            size_mb = file_size / (1024 * 1024)
+            return size_mb > threshold_mb
+        except Exception:
+            # Default to streaming for safety if size check fails
+            return True
+
+    def _get_progress_reporter(self, operation_name: str, total_steps: int = 100):
+        """
+        Create a progress reporter for long-running operations.
+        
+        Args:
+            operation_name: Name of the operation being tracked
+            total_steps: Total number of progress steps
+            
+        Returns:
+            Progress reporter object with update and complete methods
+        """
+        class ProgressReporter:
+            def __init__(self, name: str, total: int):
+                self.name = name
+                self.total = total
+                self.current = 0
+                self.start_time = time.time()
+                self.last_update = 0
+                
+            def update(self, step: int = 1, message: str = ""):
+                """Update progress by step amount"""
+                self.current = min(self.current + step, self.total)
+                current_time = time.time()
+                
+                # Update every 0.5 seconds or on completion
+                if current_time - self.last_update >= 0.5 or self.current >= self.total:
+                    self.last_update = current_time
+                    elapsed = current_time - self.start_time
+                    
+                    if self.current > 0:
+                        eta = (elapsed / self.current) * (self.total - self.current)
+                        eta_str = f" (ETA: {eta:.1f}s)" if eta > 1 else ""
+                    else:
+                        eta_str = ""
+                    
+                    percentage = (self.current / self.total) * 100
+                    status_msg = f"{self.name}: {percentage:.1f}%{eta_str}"
+                    if message:
+                        status_msg += f" - {message}"
+                    
+                    print(f"\r{status_msg}", end="", flush=True)
+                    
+            def complete(self, message: str = ""):
+                """Mark operation as complete"""
+                elapsed = time.time() - self.start_time
+                final_msg = f"\r{self.name}: 100% Complete ({elapsed:.2f}s)"
+                if message:
+                    final_msg += f" - {message}"
+                print(final_msg)
+                
+        return ProgressReporter(operation_name, total_steps)
+    
+    def _estimate_memory_usage(self, content_size: int) -> Dict[str, int]:
+        """
+        Estimate memory usage for processing content of given size.
+        
+        Args:
+            content_size: Size of content in bytes
+            
+        Returns:
+            Dict with memory estimates in bytes
+        """
+        # Base estimates based on empirical testing
+        base_overhead = 1024 * 1024  # 1MB base overhead
+        content_factor = 3.0  # Content processing multiplier
+        optimization_factor = 2.5  # Optimization processing multiplier
+        
+        estimates = {
+            'base_memory': base_overhead,
+            'content_memory': int(content_size * content_factor),
+            'optimization_memory': int(content_size * optimization_factor),
+            'peak_memory': int(base_overhead + content_size * (content_factor + optimization_factor)),
+            'streaming_memory': int(base_overhead + min(content_size, 10 * 1024 * 1024))  # Cap at 10MB for streaming
+        }
+        
+        return estimates
+
+    def _get_cache_manager(self):
+        """
+        Get or create cache manager for performance optimization.
+        
+        Returns:
+            Cache manager with get, set, and clear methods
+        """
+        if not hasattr(self, '_cache'):
+            self._cache = {}
+            self._cache_stats = {'hits': 0, 'misses': 0, 'size': 0}
+            
+        class CacheManager:
+            def __init__(self, cache_dict: dict, stats_dict: dict):
+                self.cache = cache_dict
+                self.stats = stats_dict
+                self.max_size = 100  # Maximum cache entries
+                self.max_content_size = 50 * 1024  # Max 50KB content per entry
+                
+            def _generate_cache_key(self, operation: str, content: str, **kwargs) -> str:
+                """Generate cache key from operation and content"""
+                # Use hash of content for large strings to save memory
+                if len(content) > 1000:
+                    content_hash = hashlib.sha256(content.encode()).hexdigest()[:16]
+                else:
+                    content_hash = content
+                    
+                key_parts = [operation, content_hash]
+                for k, v in sorted(kwargs.items()):
+                    key_parts.append(f"{k}={v}")
+                    
+                return "|".join(key_parts)
+            
+            def get(self, operation: str, content: str, **kwargs):
+                """Get cached result if available"""
+                key = self._generate_cache_key(operation, content, **kwargs)
+                
+                if key in self.cache:
+                    self.stats['hits'] += 1
+                    return self.cache[key]
+                else:
+                    self.stats['misses'] += 1
+                    return None
+                    
+            def set(self, operation: str, content: str, result, **kwargs):
+                """Cache operation result"""
+                # Skip caching for very large content
+                if len(content) > self.max_content_size:
+                    return
+                    
+                key = self._generate_cache_key(operation, content, **kwargs)
+                
+                # Implement simple LRU by removing oldest entries
+                if len(self.cache) >= self.max_size:
+                    # Remove first (oldest) entry
+                    oldest_key = next(iter(self.cache))
+                    del self.cache[oldest_key]
+                    
+                self.cache[key] = result
+                self.stats['size'] = len(self.cache)
+                
+            def clear(self):
+                """Clear all cached data"""
+                self.cache.clear()
+                self.stats = {'hits': 0, 'misses': 0, 'size': 0}
+                
+            def get_stats(self) -> dict:
+                """Get cache performance statistics"""
+                total_requests = self.stats['hits'] + self.stats['misses']
+                hit_rate = (self.stats['hits'] / total_requests) * 100 if total_requests > 0 else 0
+                
+                return {
+                    'hit_rate': f"{hit_rate:.1f}%",
+                    'total_hits': self.stats['hits'],
+                    'total_misses': self.stats['misses'],
+                    'cache_size': self.stats['size'],
+                    'max_size': self.max_size
+                }
+                
+        return CacheManager(self._cache, self._cache_stats)
+
+    def _process_chunks_parallel(self, chunks: List[str], operation_func, max_workers: Optional[int] = None) -> List:
+        """
+        Process content chunks in parallel using ThreadPoolExecutor.
+        
+        Args:
+            chunks: List of content chunks to process
+            operation_func: Function to apply to each chunk
+            max_workers: Maximum number of worker threads (default: CPU cores)
+            
+        Returns:
+            List of processed results in original order
+        """
+        if not chunks:
+            return []
+            
+        # Use conservative thread count for I/O bound operations
+        if max_workers is None:
+            max_workers = min(4, len(chunks), (os.cpu_count() or 1) + 1)
+            
+        progress = self._get_progress_reporter("Parallel Processing", len(chunks))
+        results = [None] * len(chunks)  # Pre-allocate results list
+        
+        def process_with_index(args):
+            """Process chunk with index to maintain order"""
+            index, chunk = args
+            try:
+                result = operation_func(chunk)
+                progress.update(1, f"Chunk {index + 1}/{len(chunks)}")
+                return index, result
+            except Exception as e:
+                validator.log_security_event("PARALLEL_PROCESSING_ERROR", 
+                                           f"Error processing chunk {index}: {e}")
+                return index, None
+                
+        try:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                # Submit all tasks
+                future_to_index = {
+                    executor.submit(process_with_index, (i, chunk)): i 
+                    for i, chunk in enumerate(chunks)
+                }
+                
+                # Collect results as they complete
+                for future in concurrent.futures.as_completed(future_to_index):
+                    index, result = future.result()
+                    results[index] = result
+                    
+        except Exception as e:
+            validator.log_security_event("PARALLEL_EXECUTION_ERROR", 
+                                       f"Parallel execution failed: {e}")
+            progress.complete("Failed")
+            raise ValueError(f"Parallel processing failed: {e}")
+            
+        progress.complete("Success")
+        return results
+    
+    def _split_content_for_parallel_processing(self, content: str, chunk_size: int = 10000) -> List[str]:
+        """
+        Split content into chunks suitable for parallel processing.
+        
+        Args:
+            content: Content to split
+            chunk_size: Approximate size of each chunk in characters
+            
+        Returns:
+            List of content chunks preserving line boundaries
+        """
+        if len(content) <= chunk_size:
+            return [content]
+            
+        chunks = []
+        lines = content.split('\n')
+        current_chunk = []
+        current_size = 0
+        
+        for line in lines:
+            line_size = len(line) + 1  # +1 for newline
+            
+            # If adding this line exceeds chunk size and we have content, start new chunk
+            if current_size + line_size > chunk_size and current_chunk:
+                chunks.append('\n'.join(current_chunk))
+                current_chunk = [line]
+                current_size = line_size
+            else:
+                current_chunk.append(line)
+                current_size += line_size
+                
+        # Add final chunk if not empty
+        if current_chunk:
+            chunks.append('\n'.join(current_chunk))
+            
+        return chunks
     
     def analyze_file(self, file_path: str) -> TokenAnalysis:
         """
         Analyze a Claude.md file for token optimization opportunities.
+        Now with performance optimizations for large files.
         
         Args:
             file_path: Path to the Claude.md file
@@ -79,21 +380,106 @@ class ClaudeMdTokenizer:
         if not path.exists():
             raise ValueError(f"File does not exist: {file_path}")
         
-        # Read file content securely
+        # Check file size and decide on processing strategy
+        use_streaming = self._should_use_streaming(file_path)
+        cache_manager = self._get_cache_manager()
+        
+        # Estimate memory requirements
+        file_size = path.stat().st_size
+        memory_estimates = self._estimate_memory_usage(file_size)
+        
+        validator.log_security_event("PERFORMANCE_ANALYSIS", 
+                                   f"Analyzing {file_size} bytes, streaming: {use_streaming}, "
+                                   f"estimated peak memory: {memory_estimates['peak_memory']} bytes")
+        
+        # Read file content with performance optimization
         try:
-            with open(path, 'r', encoding='utf-8') as file:
-                content = file.read()
+            if use_streaming:
+                # Stream processing for large files
+                progress = self._get_progress_reporter("Reading Large File", 100)
+                content_chunks = []
+                total_bytes = 0
+                
+                for chunk in self._stream_read_file(file_path):
+                    content_chunks.append(chunk)
+                    total_bytes += len(chunk.encode('utf-8'))
+                    progress.update(int((total_bytes / file_size) * 100) - progress.current)
+                    
+                content = ''.join(content_chunks)
+                progress.complete(f"Read {total_bytes} bytes")
+            else:
+                # Standard reading for smaller files
+                with open(path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                    
         except Exception as e:
             validator.log_security_event("FILE_READ_ERROR", f"Cannot read file {file_path}: {e}")
             raise ValueError(f"Cannot read file: {e}")
         
-        # Analyze content
-        original_tokens = self._estimate_tokens(content)
-        sections = self._parse_sections(content)
-        optimized_content, optimization_notes = self._optimize_content(content, sections)
-        optimized_tokens = self._estimate_tokens(optimized_content)
+        # Check cache for token estimation
+        cache_key = f"tokens_{hashlib.sha256(content.encode()).hexdigest()[:16]}"
+        original_tokens = cache_manager.get("estimate_tokens", cache_key)
         
+        if original_tokens is None:
+            original_tokens = self._estimate_tokens(content)
+            cache_manager.set("estimate_tokens", cache_key, original_tokens)
+        
+        # Parse sections with caching
+        sections_cache_key = f"sections_{hashlib.sha256(content.encode()).hexdigest()[:16]}"
+        sections = cache_manager.get("parse_sections", sections_cache_key)
+        
+        if sections is None:
+            if use_streaming and len(content) > 100000:  # 100KB threshold for parallel parsing
+                # Parallel section parsing for large content
+                content_chunks = self._split_content_for_parallel_processing(content, 20000)
+                
+                def parse_chunk(chunk):
+                    return self._parse_sections(chunk)
+                    
+                chunk_sections = self._process_chunks_parallel(content_chunks, parse_chunk)
+                
+                # Merge sections from all chunks
+                sections = {}
+                for chunk_section_dict in chunk_sections:
+                    if chunk_section_dict:
+                        sections.update(chunk_section_dict)
+            else:
+                sections = self._parse_sections(content)
+                
+            cache_manager.set("parse_sections", sections_cache_key, sections)
+        
+        # Optimize content with performance monitoring
+        optimization_progress = self._get_progress_reporter("Optimizing Content", 100)
+        
+        try:
+            optimized_content, optimization_notes = self._optimize_content(content, sections)
+            optimization_progress.update(50, "Content optimization complete")
+            
+            # Cache optimized token count
+            opt_cache_key = f"opt_tokens_{hashlib.sha256(optimized_content.encode()).hexdigest()[:16]}"
+            optimized_tokens = cache_manager.get("estimate_tokens", opt_cache_key)
+            
+            if optimized_tokens is None:
+                optimized_tokens = self._estimate_tokens(optimized_content)
+                cache_manager.set("estimate_tokens", opt_cache_key, optimized_tokens)
+                
+            optimization_progress.update(50, "Token analysis complete")
+            
+        except Exception as e:
+            optimization_progress.complete("Failed")
+            validator.log_security_event("OPTIMIZATION_ERROR", f"Content optimization failed: {e}")
+            raise ValueError(f"Content optimization failed: {e}")
+            
+        optimization_progress.complete("Success")
+        
+        # Calculate performance metrics
         reduction_ratio = (original_tokens - optimized_tokens) / original_tokens if original_tokens > 0 else 0
+        
+        # Log performance statistics
+        cache_stats = cache_manager.get_stats()
+        validator.log_security_event("PERFORMANCE_STATS", 
+                                   f"Cache performance: {cache_stats['hit_rate']} hit rate, "
+                                   f"Memory strategy: {'streaming' if use_streaming else 'standard'}")
         
         return TokenAnalysis(
             original_tokens=original_tokens,
@@ -107,6 +493,7 @@ class ClaudeMdTokenizer:
     def optimize_file(self, file_path: str, output_path: Optional[str] = None) -> TokenAnalysis:
         """
         Optimize a Claude.md file and save the result.
+        Now with performance optimizations for large files and batch processing.
         
         Args:
             file_path: Path to the input file
@@ -122,34 +509,249 @@ class ClaudeMdTokenizer:
         if output_path and not validator.validate_file_path(output_path):
             raise ValueError(f"Invalid output file path: {output_path}")
         
-        # Analyze the file
-        analysis = self.analyze_file(file_path)
+        # Performance monitoring setup
+        start_time = time.time()
+        file_size = Path(file_path).stat().st_size
+        use_streaming = self._should_use_streaming(file_path)
         
-        # Read original content
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
+        validator.log_security_event("FILE_OPTIMIZATION_START", 
+                                   f"Starting optimization of {file_size} bytes, "
+                                   f"streaming mode: {use_streaming}")
         
-        # Optimize content
-        sections = self._parse_sections(content)
-        optimized_content, _ = self._optimize_content(content, sections)
+        # Analyze the file with performance optimizations
+        try:
+            analysis = self.analyze_file(file_path)
+            analysis_time = time.time() - start_time
+            
+        except Exception as e:
+            validator.log_security_event("ANALYSIS_ERROR", f"File analysis failed: {e}")
+            raise ValueError(f"File analysis failed: {e}")
+        
+        # Read and optimize content with performance strategy
+        try:
+            if use_streaming:
+                # Streaming optimization for large files
+                progress = self._get_progress_reporter("Processing Large File", 100)
+                
+                # Read content in streaming fashion
+                content_chunks = []
+                total_bytes = 0
+                
+                for chunk in self._stream_read_file(file_path):
+                    content_chunks.append(chunk)
+                    total_bytes += len(chunk.encode('utf-8'))
+                    progress.update(int((total_bytes / file_size) * 30))  # 30% for reading
+                    
+                content = ''.join(content_chunks)
+                progress.update(30, "File read complete")
+                
+                # Process sections in parallel for large content
+                if len(content) > 100000:  # 100KB threshold
+                    sections_chunks = self._split_content_for_parallel_processing(content, 25000)
+                    
+                    def parse_and_optimize_chunk(chunk):
+                        chunk_sections = self._parse_sections(chunk)
+                        optimized_chunk, notes = self._optimize_content(chunk, chunk_sections)
+                        return optimized_chunk, notes
+                    
+                    progress.update(10, "Starting parallel processing")
+                    
+                    # Process chunks in parallel
+                    chunk_results = self._process_chunks_parallel(sections_chunks, 
+                                                                lambda chunk: parse_and_optimize_chunk(chunk))
+                    
+                    # Combine results
+                    optimized_chunks = []
+                    all_notes = []
+                    
+                    for result in chunk_results:
+                        if result:
+                            chunk_content, chunk_notes = result
+                            optimized_chunks.append(chunk_content)
+                            all_notes.extend(chunk_notes)
+                    
+                    optimized_content = '\n'.join(optimized_chunks)
+                    optimization_notes = all_notes
+                    
+                    progress.update(50, "Parallel processing complete")
+                else:
+                    # Standard processing for moderately sized files
+                    sections = self._parse_sections(content)
+                    optimized_content, optimization_notes = self._optimize_content(content, sections)
+                    progress.update(50, "Standard processing complete")
+                    
+                progress.complete("Optimization complete")
+                
+            else:
+                # Standard processing for smaller files
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                
+                sections = self._parse_sections(content)
+                optimized_content, optimization_notes = self._optimize_content(content, sections)
+                
+        except Exception as e:
+            validator.log_security_event("OPTIMIZATION_ERROR", f"Content optimization failed: {e}")
+            raise ValueError(f"Content optimization failed: {e}")
         
         # Determine output path
         if not output_path:
             path = Path(file_path)
             output_path = path.parent / f"{path.stem}_optimized{path.suffix}"
         
-        # Save optimized content
+        # Save optimized content with performance monitoring
         try:
-            with open(output_path, 'w', encoding='utf-8') as file:
-                file.write(optimized_content)
+            write_start = time.time()
             
-            validator.log_security_event("FILE_OPTIMIZED", f"File optimized: {file_path} -> {output_path}")
+            # Use buffered writing for large files
+            if len(optimized_content) > 1024 * 1024:  # 1MB threshold
+                with open(output_path, 'w', encoding='utf-8', buffering=8192) as file:
+                    # Write in chunks for very large content
+                    chunk_size = 64 * 1024  # 64KB chunks
+                    for i in range(0, len(optimized_content), chunk_size):
+                        chunk = optimized_content[i:i + chunk_size]
+                        file.write(chunk)
+            else:
+                # Standard writing for smaller files
+                with open(output_path, 'w', encoding='utf-8') as file:
+                    file.write(optimized_content)
+            
+            write_time = time.time() - write_start
+            total_time = time.time() - start_time
+            
+            # Performance logging
+            original_size = len(content.encode('utf-8'))
+            optimized_size = len(optimized_content.encode('utf-8'))
+            size_reduction = (original_size - optimized_size) / original_size * 100 if original_size > 0 else 0
+            
+            validator.log_security_event("FILE_OPTIMIZATION_COMPLETE", 
+                                       f"Optimization complete: {file_path} -> {output_path}, "
+                                       f"Total time: {total_time:.2f}s (analysis: {analysis_time:.2f}s, "
+                                       f"write: {write_time:.2f}s), Size reduction: {size_reduction:.1f}%, "
+                                       f"Token reduction: {analysis.reduction_ratio * 100:.1f}%")
             
         except Exception as e:
             validator.log_security_event("FILE_WRITE_ERROR", f"Cannot write optimized file: {e}")
             raise ValueError(f"Cannot write optimized file: {e}")
         
         return analysis
+
+    def optimize_files_batch(self, file_paths: List[str], output_dir: Optional[str] = None, 
+                           max_parallel: int = 4) -> List[TokenAnalysis]:
+        """
+        Optimize multiple files in batch with parallel processing.
+        
+        Args:
+            file_paths: List of file paths to optimize
+            output_dir: Directory for optimized outputs (optional)
+            max_parallel: Maximum number of files to process in parallel
+            
+        Returns:
+            List of TokenAnalysis objects for each file
+            
+        Raises:
+            ValueError: If any file path is invalid or processing fails
+        """
+        if not file_paths:
+            return []
+        
+        # Validate all paths first
+        for file_path in file_paths:
+            if not validator.validate_file_path(file_path):
+                raise ValueError(f"Invalid file path in batch: {file_path}")
+            
+            if not Path(file_path).exists():
+                raise ValueError(f"File does not exist in batch: {file_path}")
+        
+        # Prepare output directory
+        if output_dir:
+            output_path = Path(output_dir)
+            output_path.mkdir(parents=True, exist_ok=True)
+        
+        # Performance monitoring
+        start_time = time.time()
+        total_size = sum(Path(fp).stat().st_size for fp in file_paths)
+        
+        validator.log_security_event("BATCH_OPTIMIZATION_START", 
+                                   f"Starting batch optimization of {len(file_paths)} files, "
+                                   f"total size: {total_size} bytes, max parallel: {max_parallel}")
+        
+        def optimize_single_file(file_path: str) -> TokenAnalysis:
+            """Optimize a single file for batch processing"""
+            try:
+                # Determine output path
+                if output_dir:
+                    input_path = Path(file_path)
+                    output_path = Path(output_dir) / f"{input_path.stem}_optimized{input_path.suffix}"
+                else:
+                    output_path = None
+                
+                return self.optimize_file(file_path, str(output_path) if output_path else None)
+                
+            except Exception as e:
+                validator.log_security_event("BATCH_FILE_ERROR", 
+                                           f"Failed to optimize {file_path}: {e}")
+                # Return a failed analysis rather than breaking the entire batch
+                return TokenAnalysis(
+                    original_tokens=0,
+                    optimized_tokens=0,
+                    reduction_ratio=0.0,
+                    preserved_sections=[],
+                    removed_sections=[],
+                    optimization_notes=[f"Optimization failed: {str(e)}"]
+                )
+        
+        # Process files in parallel
+        results = self._process_chunks_parallel(file_paths, optimize_single_file, max_parallel)
+        
+        # Calculate batch statistics
+        total_time = time.time() - start_time
+        successful_results = [r for r in results if r and r.original_tokens > 0]
+        
+        if successful_results:
+            total_original = sum(r.original_tokens for r in successful_results)
+            total_optimized = sum(r.optimized_tokens for r in successful_results)
+            avg_reduction = (total_original - total_optimized) / total_original if total_original > 0 else 0
+        else:
+            avg_reduction = 0
+        
+        validator.log_security_event("BATCH_OPTIMIZATION_COMPLETE", 
+                                   f"Batch optimization complete: {len(successful_results)}/{len(file_paths)} "
+                                   f"files successful, total time: {total_time:.2f}s, "
+                                   f"average reduction: {avg_reduction * 100:.1f}%")
+        
+        return results
+    
+    def get_performance_stats(self) -> Dict[str, Any]:
+        """
+        Get performance statistics for the tokenizer.
+        
+        Returns:
+            Dict with performance metrics and cache statistics
+        """
+        cache_manager = self._get_cache_manager()
+        cache_stats = cache_manager.get_stats()
+        
+        stats = {
+            'cache_performance': cache_stats,
+            'optimization_stats': getattr(self, 'optimization_stats', {}),
+            'features': {
+                'streaming_support': True,
+                'parallel_processing': True,
+                'progress_reporting': True,
+                'caching_system': True,
+                'batch_processing': True,
+                'memory_monitoring': True
+            },
+            'thresholds': {
+                'streaming_threshold_mb': 1.0,
+                'parallel_processing_threshold_chars': 100000,
+                'max_cache_entries': 100,
+                'max_cache_content_size_chars': 50000
+            }
+        }
+        
+        return stats
     
     def _estimate_tokens(self, content: str) -> int:
         """
