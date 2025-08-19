@@ -1,0 +1,400 @@
+{
+  "features": {
+    "file_path": "test_documents/faq_document.md",
+    "content_length": 13790,
+    "line_count": 608,
+    "word_count": 2032,
+    "char_count": 13790,
+    "timestamp": "2025-08-19T19:06:33.214579",
+    "header_count": 42,
+    "header_levels": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "bullet_list_items": 225,
+    "numbered_list_items": 36,
+    "markdown_links": 11,
+    "url_links": 3,
+    "code_blocks": 0,
+    "inline_code": 0,
+    "bold_elements": 124,
+    "italic_elements": 247,
+    "document_type": "documentation",
+    "sections": {
+      "Frequently Asked Questions (FAQ)": {
+        "level": 1,
+        "start_line": 0,
+        "title": "Frequently Asked Questions (FAQ)",
+        "importance_score": 0.5,
+        "end_line": 3
+      },
+      "Table of Contents": {
+        "level": 2,
+        "start_line": 4,
+        "title": "Table of Contents",
+        "importance_score": 0.5,
+        "end_line": 16
+      },
+      "Account and Billing": {
+        "level": 2,
+        "start_line": 17,
+        "title": "Account and Billing",
+        "importance_score": 0.5,
+        "end_line": 18
+      },
+      "Q: How do I create an account?": {
+        "level": 3,
+        "start_line": 19,
+        "title": "Q: How do I create an account?",
+        "importance_score": 0.5,
+        "end_line": 29
+      },
+      "Q: What are the different pricing plans?": {
+        "level": 3,
+        "start_line": 30,
+        "title": "Q: What are the different pricing plans?",
+        "importance_score": 0.55,
+        "end_line": 59
+      },
+      "Q: Can I change my plan at any time?": {
+        "level": 3,
+        "start_line": 60,
+        "title": "Q: Can I change my plan at any time?",
+        "importance_score": 0.5,
+        "end_line": 70
+      },
+      "Q: Do you offer refunds?": {
+        "level": 3,
+        "start_line": 71,
+        "title": "Q: Do you offer refunds?",
+        "importance_score": 0.5,
+        "end_line": 74
+      },
+      "Q: How do I cancel my subscription?": {
+        "level": 3,
+        "start_line": 75,
+        "title": "Q: How do I cancel my subscription?",
+        "importance_score": 0.5,
+        "end_line": 85
+      },
+      "Getting Started": {
+        "level": 2,
+        "start_line": 86,
+        "title": "Getting Started",
+        "importance_score": 0.5,
+        "end_line": 87
+      },
+      "Q: What's the best way to get started?": {
+        "level": 3,
+        "start_line": 88,
+        "title": "Q: What's the best way to get started?",
+        "importance_score": 0.55,
+        "end_line": 97
+      },
+      "Q: Do you have sample data I can use for testing?": {
+        "level": 3,
+        "start_line": 98,
+        "title": "Q: Do you have sample data I can use for testing?",
+        "importance_score": 0.55,
+        "end_line": 109
+      },
+      "Q: How long does it take to set up a project?": {
+        "level": 3,
+        "start_line": 110,
+        "title": "Q: How long does it take to set up a project?",
+        "importance_score": 0.5,
+        "end_line": 118
+      },
+      "Q: Can I import data from Excel files?": {
+        "level": 3,
+        "start_line": 119,
+        "title": "Q: Can I import data from Excel files?",
+        "importance_score": 0.5,
+        "end_line": 132
+      },
+      "Data Management": {
+        "level": 2,
+        "start_line": 133,
+        "title": "Data Management",
+        "importance_score": 0.5,
+        "end_line": 134
+      },
+      "Q: What data sources can I connect to?": {
+        "level": 3,
+        "start_line": 135,
+        "title": "Q: What data sources can I connect to?",
+        "importance_score": 0.55,
+        "end_line": 162
+      },
+      "Q: How much data can I store?": {
+        "level": 3,
+        "start_line": 163,
+        "title": "Q: How much data can I store?",
+        "importance_score": 0.5,
+        "end_line": 173
+      },
+      "Q: Is my data backed up?": {
+        "level": 3,
+        "start_line": 174,
+        "title": "Q: Is my data backed up?",
+        "importance_score": 0.5,
+        "end_line": 188
+      },
+      "Q: Can I export my data?": {
+        "level": 3,
+        "start_line": 189,
+        "title": "Q: Can I export my data?",
+        "importance_score": 0.5,
+        "end_line": 206
+      },
+      "Analytics and Reporting": {
+        "level": 2,
+        "start_line": 207,
+        "title": "Analytics and Reporting",
+        "importance_score": 0.5,
+        "end_line": 208
+      },
+      "Q: What types of analytics can I perform?": {
+        "level": 3,
+        "start_line": 209,
+        "title": "Q: What types of analytics can I perform?",
+        "importance_score": 0.55,
+        "end_line": 236
+      },
+      "Q: Can I create custom visualizations?": {
+        "level": 3,
+        "start_line": 237,
+        "title": "Q: Can I create custom visualizations?",
+        "importance_score": 0.55,
+        "end_line": 258
+      },
+      "Q: How do I share reports with my team?": {
+        "level": 3,
+        "start_line": 259,
+        "title": "Q: How do I share reports with my team?",
+        "importance_score": 0.55,
+        "end_line": 282
+      },
+      "API and Integrations": {
+        "level": 2,
+        "start_line": 283,
+        "title": "API and Integrations",
+        "importance_score": 0.5,
+        "end_line": 284
+      },
+      "Q: Do you provide an API?": {
+        "level": 3,
+        "start_line": 285,
+        "title": "Q: Do you provide an API?",
+        "importance_score": 0.55,
+        "end_line": 306
+      },
+      "Q: What integrations are available?": {
+        "level": 3,
+        "start_line": 307,
+        "title": "Q: What integrations are available?",
+        "importance_score": 0.55,
+        "end_line": 330
+      },
+      "Q: Can I build custom integrations?": {
+        "level": 3,
+        "start_line": 331,
+        "title": "Q: Can I build custom integrations?",
+        "importance_score": 0.55,
+        "end_line": 354
+      },
+      "Security and Privacy": {
+        "level": 2,
+        "start_line": 355,
+        "title": "Security and Privacy",
+        "importance_score": 0.7,
+        "end_line": 356
+      },
+      "Q: How secure is my data?": {
+        "level": 3,
+        "start_line": 357,
+        "title": "Q: How secure is my data?",
+        "importance_score": 0.55,
+        "end_line": 378
+      },
+      "Q: Where is my data stored?": {
+        "level": 3,
+        "start_line": 379,
+        "title": "Q: Where is my data stored?",
+        "importance_score": 0.5,
+        "end_line": 393
+      },
+      "Q: Who has access to my data?": {
+        "level": 3,
+        "start_line": 394,
+        "title": "Q: Who has access to my data?",
+        "importance_score": 0.5,
+        "end_line": 409
+      },
+      "Q: How do you handle data privacy?": {
+        "level": 3,
+        "start_line": 410,
+        "title": "Q: How do you handle data privacy?",
+        "importance_score": 0.5,
+        "end_line": 427
+      },
+      "Performance and Limits": {
+        "level": 2,
+        "start_line": 428,
+        "title": "Performance and Limits",
+        "importance_score": 0.5,
+        "end_line": 429
+      },
+      "Q: What are the usage limits?": {
+        "level": 3,
+        "start_line": 430,
+        "title": "Q: What are the usage limits?",
+        "importance_score": 0.55,
+        "end_line": 451
+      },
+      "Q: How can I improve performance?": {
+        "level": 3,
+        "start_line": 452,
+        "title": "Q: How can I improve performance?",
+        "importance_score": 0.55,
+        "end_line": 473
+      },
+      "Q: What happens if I exceed limits?": {
+        "level": 3,
+        "start_line": 474,
+        "title": "Q: What happens if I exceed limits?",
+        "importance_score": 0.55,
+        "end_line": 491
+      },
+      "Troubleshooting": {
+        "level": 2,
+        "start_line": 492,
+        "title": "Troubleshooting",
+        "importance_score": 0.5,
+        "end_line": 493
+      },
+      "Q: I can't log into my account": {
+        "level": 3,
+        "start_line": 494,
+        "title": "Q: I can't log into my account",
+        "importance_score": 0.55,
+        "end_line": 512
+      },
+      "Q: My data upload is failing": {
+        "level": 3,
+        "start_line": 513,
+        "title": "Q: My data upload is failing",
+        "importance_score": 0.55,
+        "end_line": 531
+      },
+      "Q: My analysis is running slowly": {
+        "level": 3,
+        "start_line": 532,
+        "title": "Q: My analysis is running slowly",
+        "importance_score": 0.55,
+        "end_line": 550
+      },
+      "Q: I'm getting API errors": {
+        "level": 3,
+        "start_line": 551,
+        "title": "Q: I'm getting API errors",
+        "importance_score": 0.55,
+        "end_line": 569
+      },
+      "Q: How do I get support?": {
+        "level": 3,
+        "start_line": 570,
+        "title": "Q: How do I get support?",
+        "importance_score": 0.55,
+        "end_line": 597
+      },
+      "Still Have Questions?": {
+        "level": 2,
+        "start_line": 598,
+        "title": "Still Have Questions?",
+        "importance_score": 0.5,
+        "end_line": 607
+      }
+    },
+    "code_languages": [],
+    "code_block_sizes": [],
+    "formatting_density": 0.051631617113850614,
+    "table_rows": 0,
+    "avg_line_length": 21.68092105263158,
+    "avg_word_length": 5.646653543307087,
+    "max_indent_level": 3,
+    "avg_indent_level": 0.24324324324324326,
+    "reference_count": 11,
+    "unique_references": 11
+  },
+  "patterns": {
+    "optimization_effectiveness": 100.0,
+    "preferred_techniques": [],
+    "content_characteristics": {
+      "document_type": "documentation",
+      "complexity_level": "medium",
+      "structure_type": "list_heavy"
+    },
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "19:00-20:00",
+        "18:00-19:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 100.0,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 100.0,
+    "ml_confidence": 0.6000000000000001,
+    "cluster_id": 2
+  },
+  "confidence": 0.9,
+  "timestamp": "2025-08-19T19:06:33.289622"
+}

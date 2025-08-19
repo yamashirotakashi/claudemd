@@ -1,0 +1,311 @@
+{
+  "features": {
+    "file_path": "test_documents/technical_documentation.md",
+    "content_length": 4309,
+    "line_count": 192,
+    "word_count": 555,
+    "char_count": 4309,
+    "timestamp": "2025-08-19T19:06:19.280063",
+    "header_count": 30,
+    "header_levels": [
+      1,
+      2,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      1,
+      1,
+      3,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4
+    ],
+    "bullet_list_items": 51,
+    "numbered_list_items": 15,
+    "markdown_links": 0,
+    "url_links": 0,
+    "code_blocks": 3,
+    "inline_code": 12,
+    "bold_elements": 8,
+    "italic_elements": 15,
+    "document_type": "documentation",
+    "sections": {
+      "Technical Documentation": {
+        "level": 1,
+        "start_line": 0,
+        "title": "Technical Documentation",
+        "importance_score": 0.5,
+        "end_line": 1
+      },
+      "Overview": {
+        "level": 2,
+        "start_line": 2,
+        "title": "Overview",
+        "importance_score": 0.5,
+        "end_line": 5
+      },
+      "System Architecture": {
+        "level": 3,
+        "start_line": 6,
+        "title": "System Architecture",
+        "importance_score": 0.5,
+        "end_line": 9
+      },
+      "Core Services": {
+        "level": 4,
+        "start_line": 10,
+        "title": "Core Services",
+        "importance_score": 0.5,
+        "end_line": 15
+      },
+      "Database Layer": {
+        "level": 4,
+        "start_line": 16,
+        "title": "Database Layer",
+        "importance_score": 0.5,
+        "end_line": 21
+      },
+      "API Gateway": {
+        "level": 4,
+        "start_line": 22,
+        "title": "API Gateway",
+        "importance_score": 0.5,
+        "end_line": 29
+      },
+      "Implementation Details": {
+        "level": 3,
+        "start_line": 30,
+        "title": "Implementation Details",
+        "importance_score": 0.5,
+        "end_line": 33
+      },
+      "Design Patterns": {
+        "level": 4,
+        "start_line": 34,
+        "title": "Design Patterns",
+        "importance_score": 0.5,
+        "end_line": 39
+      },
+      "Code Structure": {
+        "level": 4,
+        "start_line": 40,
+        "title": "Code Structure",
+        "importance_score": 0.5,
+        "end_line": 60
+      },
+      "Configuration": {
+        "level": 3,
+        "start_line": 61,
+        "title": "Configuration",
+        "importance_score": 0.5,
+        "end_line": 64
+      },
+      "Environment Variables": {
+        "level": 4,
+        "start_line": 65,
+        "title": "Environment Variables",
+        "importance_score": 0.5,
+        "end_line": 70
+      },
+      "Configuration Files": {
+        "level": 4,
+        "start_line": 71,
+        "title": "Configuration Files",
+        "importance_score": 0.5,
+        "end_line": 75
+      },
+      "Deployment": {
+        "level": 3,
+        "start_line": 76,
+        "title": "Deployment",
+        "importance_score": 0.5,
+        "end_line": 80
+      },
+      "Build the image": {
+        "level": 1,
+        "start_line": 81,
+        "title": "Build the image",
+        "importance_score": 0.5,
+        "end_line": 83
+      },
+      "Run the container": {
+        "level": 1,
+        "start_line": 84,
+        "title": "Run the container",
+        "importance_score": 0.5,
+        "end_line": 111
+      },
+      "Monitoring and Logging": {
+        "level": 3,
+        "start_line": 112,
+        "title": "Monitoring and Logging",
+        "importance_score": 0.5,
+        "end_line": 115
+      },
+      "Metrics": {
+        "level": 4,
+        "start_line": 116,
+        "title": "Metrics",
+        "importance_score": 0.5,
+        "end_line": 121
+      },
+      "Logging": {
+        "level": 4,
+        "start_line": 122,
+        "title": "Logging",
+        "importance_score": 0.5,
+        "end_line": 127
+      },
+      "Security": {
+        "level": 3,
+        "start_line": 128,
+        "title": "Security",
+        "importance_score": 0.7,
+        "end_line": 131
+      },
+      "Authentication": {
+        "level": 4,
+        "start_line": 132,
+        "title": "Authentication",
+        "importance_score": 0.5,
+        "end_line": 137
+      },
+      "Authorization": {
+        "level": 4,
+        "start_line": 138,
+        "title": "Authorization",
+        "importance_score": 0.5,
+        "end_line": 142
+      },
+      "Data Protection": {
+        "level": 4,
+        "start_line": 143,
+        "title": "Data Protection",
+        "importance_score": 0.5,
+        "end_line": 148
+      },
+      "Performance Optimization": {
+        "level": 3,
+        "start_line": 149,
+        "title": "Performance Optimization",
+        "importance_score": 0.5,
+        "end_line": 152
+      },
+      "Caching": {
+        "level": 4,
+        "start_line": 153,
+        "title": "Caching",
+        "importance_score": 0.5,
+        "end_line": 158
+      },
+      "Database Optimization": {
+        "level": 4,
+        "start_line": 159,
+        "title": "Database Optimization",
+        "importance_score": 0.5,
+        "end_line": 164
+      },
+      "Code Optimization": {
+        "level": 4,
+        "start_line": 165,
+        "title": "Code Optimization",
+        "importance_score": 0.5,
+        "end_line": 170
+      },
+      "Troubleshooting": {
+        "level": 3,
+        "start_line": 171,
+        "title": "Troubleshooting",
+        "importance_score": 0.5,
+        "end_line": 174
+      },
+      "Performance Issues": {
+        "level": 4,
+        "start_line": 175,
+        "title": "Performance Issues",
+        "importance_score": 0.5,
+        "end_line": 180
+      },
+      "Connectivity Issues": {
+        "level": 4,
+        "start_line": 181,
+        "title": "Connectivity Issues",
+        "importance_score": 0.5,
+        "end_line": 186
+      },
+      "Data Issues": {
+        "level": 4,
+        "start_line": 187,
+        "title": "Data Issues",
+        "importance_score": 0.5,
+        "end_line": 191
+      }
+    },
+    "code_languages": [
+      "bash",
+      "yaml"
+    ],
+    "code_block_sizes": [
+      344,
+      106,
+      347
+    ],
+    "formatting_density": 0.044789974472035275,
+    "table_rows": 0,
+    "avg_line_length": 21.442708333333332,
+    "avg_word_length": 6.4972972972972975,
+    "max_indent_level": 6,
+    "avg_indent_level": 0.5789473684210527,
+    "reference_count": 0,
+    "unique_references": 0
+  },
+  "patterns": {
+    "optimization_effectiveness": 100.0,
+    "preferred_techniques": [],
+    "content_characteristics": {
+      "document_type": "documentation",
+      "complexity_level": "medium",
+      "structure_type": "list_heavy"
+    },
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "19:00-20:00",
+        "18:00-19:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 100.0,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 100.0,
+    "ml_confidence": 0.5,
+    "cluster_id": 0
+  },
+  "confidence": 0.85,
+  "timestamp": "2025-08-19T19:06:19.347160"
+}

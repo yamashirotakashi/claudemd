@@ -1,0 +1,92 @@
+{
+  "features": {
+    "file_path": "/tmp/tmp2pwtw75r.md",
+    "content_length": 435,
+    "line_count": 18,
+    "word_count": 74,
+    "char_count": 435,
+    "timestamp": "2025-08-19T19:03:13.100097",
+    "header_count": 4,
+    "header_levels": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "bullet_list_items": 0,
+    "numbered_list_items": 8,
+    "markdown_links": 0,
+    "url_links": 0,
+    "code_blocks": 0,
+    "inline_code": 0,
+    "bold_elements": 0,
+    "italic_elements": 0,
+    "document_type": "general_markdown",
+    "sections": {
+      "Getting Started": {
+        "level": 1,
+        "start_line": 0,
+        "title": "Getting Started",
+        "importance_score": 0.5,
+        "end_line": 1
+      },
+      "Introduction": {
+        "level": 2,
+        "start_line": 2,
+        "title": "Introduction",
+        "importance_score": 0.5,
+        "end_line": 4
+      },
+      "Step 1: Account Setup": {
+        "level": 2,
+        "start_line": 5,
+        "title": "Step 1: Account Setup",
+        "importance_score": 0.5,
+        "end_line": 11
+      },
+      "Step 2: First Project": {
+        "level": 2,
+        "start_line": 12,
+        "title": "Step 2: First Project",
+        "importance_score": 0.5,
+        "end_line": 17
+      }
+    },
+    "code_languages": [],
+    "code_block_sizes": [],
+    "formatting_density": 0.016091954022988506,
+    "table_rows": 0,
+    "avg_line_length": 23.166666666666668,
+    "avg_word_length": 4.837837837837838,
+    "max_indent_level": 0,
+    "avg_indent_level": 0.0,
+    "reference_count": 0,
+    "unique_references": 0
+  },
+  "patterns": {
+    "optimization_effectiveness": 20.37037037037037,
+    "preferred_techniques": [],
+    "content_characteristics": {},
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "18:00-19:00",
+        "19:00-20:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 38.43835978835979,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 54.797325102880656,
+    "ml_confidence": 0.9,
+    "cluster_id": 2
+  },
+  "confidence": 1.0,
+  "timestamp": "2025-08-19T19:03:13.144089"
+}

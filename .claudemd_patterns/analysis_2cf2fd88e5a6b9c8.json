@@ -1,0 +1,313 @@
+{
+  "features": {
+    "file_path": "test_documents/api_reference.md",
+    "content_length": 5677,
+    "line_count": 329,
+    "word_count": 688,
+    "char_count": 5677,
+    "timestamp": "2025-08-19T19:06:20.767857",
+    "header_count": 28,
+    "header_levels": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4,
+      4,
+      4,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      4,
+      4
+    ],
+    "bullet_list_items": 26,
+    "numbered_list_items": 0,
+    "markdown_links": 0,
+    "url_links": 5,
+    "code_blocks": 19,
+    "inline_code": 60,
+    "bold_elements": 20,
+    "italic_elements": 39,
+    "document_type": "api_documentation",
+    "sections": {
+      "API Reference": {
+        "level": 1,
+        "start_line": 0,
+        "title": "API Reference",
+        "importance_score": 0.5,
+        "end_line": 1
+      },
+      "Overview": {
+        "level": 2,
+        "start_line": 2,
+        "title": "Overview",
+        "importance_score": 0.5,
+        "end_line": 5
+      },
+      "Base URL": {
+        "level": 2,
+        "start_line": 6,
+        "title": "Base URL",
+        "importance_score": 0.5,
+        "end_line": 11
+      },
+      "Authentication": {
+        "level": 2,
+        "start_line": 12,
+        "title": "Authentication",
+        "importance_score": 0.5,
+        "end_line": 15
+      },
+      "API Key Authentication": {
+        "level": 3,
+        "start_line": 16,
+        "title": "API Key Authentication",
+        "importance_score": 0.5,
+        "end_line": 23
+      },
+      "JWT Authentication": {
+        "level": 3,
+        "start_line": 24,
+        "title": "JWT Authentication",
+        "importance_score": 0.5,
+        "end_line": 31
+      },
+      "Endpoints": {
+        "level": 2,
+        "start_line": 32,
+        "title": "Endpoints",
+        "importance_score": 0.5,
+        "end_line": 33
+      },
+      "Users": {
+        "level": 3,
+        "start_line": 34,
+        "title": "Users",
+        "importance_score": 0.6,
+        "end_line": 35
+      },
+      "GET /users": {
+        "level": 4,
+        "start_line": 36,
+        "title": "GET /users",
+        "importance_score": 0.55,
+        "end_line": 62
+      },
+      "POST /users": {
+        "level": 4,
+        "start_line": 63,
+        "title": "POST /users",
+        "importance_score": 0.5,
+        "end_line": 87
+      },
+      "GET /users/{id}": {
+        "level": 4,
+        "start_line": 88,
+        "title": "GET /users/{id}",
+        "importance_score": 0.5,
+        "end_line": 112
+      },
+      "PUT /users/{id}": {
+        "level": 4,
+        "start_line": 113,
+        "title": "PUT /users/{id}",
+        "importance_score": 0.5,
+        "end_line": 131
+      },
+      "DELETE /users/{id}": {
+        "level": 4,
+        "start_line": 132,
+        "title": "DELETE /users/{id}",
+        "importance_score": 0.5,
+        "end_line": 145
+      },
+      "Data Records": {
+        "level": 3,
+        "start_line": 146,
+        "title": "Data Records",
+        "importance_score": 0.5,
+        "end_line": 147
+      },
+      "GET /data": {
+        "level": 4,
+        "start_line": 148,
+        "title": "GET /data",
+        "importance_score": 0.55,
+        "end_line": 180
+      },
+      "POST /data": {
+        "level": 4,
+        "start_line": 181,
+        "title": "POST /data",
+        "importance_score": 0.5,
+        "end_line": 197
+      },
+      "Notifications": {
+        "level": 3,
+        "start_line": 198,
+        "title": "Notifications",
+        "importance_score": 0.55,
+        "end_line": 199
+      },
+      "GET /notifications": {
+        "level": 4,
+        "start_line": 200,
+        "title": "GET /notifications",
+        "importance_score": 0.5,
+        "end_line": 224
+      },
+      "POST /notifications": {
+        "level": 4,
+        "start_line": 225,
+        "title": "POST /notifications",
+        "importance_score": 0.5,
+        "end_line": 238
+      },
+      "PUT /notifications/{id}/read": {
+        "level": 4,
+        "start_line": 239,
+        "title": "PUT /notifications/{id}/read",
+        "importance_score": 0.5,
+        "end_line": 245
+      },
+      "Error Handling": {
+        "level": 2,
+        "start_line": 246,
+        "title": "Error Handling",
+        "importance_score": 0.55,
+        "end_line": 273
+      },
+      "Rate Limiting": {
+        "level": 2,
+        "start_line": 274,
+        "title": "Rate Limiting",
+        "importance_score": 0.5,
+        "end_line": 289
+      },
+      "SDK and Libraries": {
+        "level": 2,
+        "start_line": 290,
+        "title": "SDK and Libraries",
+        "importance_score": 0.5,
+        "end_line": 293
+      },
+      "Python": {
+        "level": 3,
+        "start_line": 294,
+        "title": "Python",
+        "importance_score": 0.5,
+        "end_line": 301
+      },
+      "JavaScript": {
+        "level": 3,
+        "start_line": 302,
+        "title": "JavaScript",
+        "importance_score": 0.5,
+        "end_line": 309
+      },
+      "cURL Examples": {
+        "level": 3,
+        "start_line": 310,
+        "title": "cURL Examples",
+        "importance_score": 0.5,
+        "end_line": 311
+      },
+      "Get users": {
+        "level": 4,
+        "start_line": 312,
+        "title": "Get users",
+        "importance_score": 0.5,
+        "end_line": 317
+      },
+      "Create user": {
+        "level": 4,
+        "start_line": 318,
+        "title": "Create user",
+        "importance_score": 0.5,
+        "end_line": 328
+      }
+    },
+    "code_languages": [
+      "bash",
+      "json",
+      "javascript",
+      "python"
+    ],
+    "code_block_sizes": [
+      26,
+      34,
+      33,
+      249,
+      141,
+      116,
+      329,
+      149,
+      44,
+      313,
+      140,
+      234,
+      105,
+      203,
+      80,
+      109,
+      149,
+      106,
+      236
+    ],
+    "formatting_density": 0.07503963360930069,
+    "table_rows": 0,
+    "avg_line_length": 16.25531914893617,
+    "avg_word_length": 6.684593023255814,
+    "max_indent_level": 8,
+    "avg_indent_level": 1.2373540856031129,
+    "reference_count": 3,
+    "unique_references": 3
+  },
+  "patterns": {
+    "optimization_effectiveness": 100.0,
+    "preferred_techniques": [],
+    "content_characteristics": {
+      "document_type": "api_documentation",
+      "complexity_level": "high",
+      "structure_type": "structured"
+    },
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "19:00-20:00",
+        "18:00-19:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 100.0,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 100.0,
+    "ml_confidence": 0.30000000000000004,
+    "cluster_id": 4
+  },
+  "confidence": 0.9500000000000001,
+  "timestamp": "2025-08-19T19:06:20.832874"
+}

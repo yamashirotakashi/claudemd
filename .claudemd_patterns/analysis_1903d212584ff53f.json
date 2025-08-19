@@ -1,0 +1,100 @@
+{
+  "features": {
+    "file_path": "/tmp/tmptkl05cx0.md",
+    "content_length": 332,
+    "line_count": 20,
+    "word_count": 51,
+    "char_count": 332,
+    "timestamp": "2025-08-19T19:05:49.141090",
+    "header_count": 5,
+    "header_levels": [
+      1,
+      2,
+      2,
+      2,
+      2
+    ],
+    "bullet_list_items": 0,
+    "numbered_list_items": 0,
+    "markdown_links": 0,
+    "url_links": 0,
+    "code_blocks": 0,
+    "inline_code": 0,
+    "bold_elements": 0,
+    "italic_elements": 0,
+    "document_type": "general_markdown",
+    "sections": {
+      "Test File": {
+        "level": 1,
+        "start_line": 0,
+        "title": "Test File",
+        "importance_score": 0.5,
+        "end_line": 1
+      },
+      "Important Security": {
+        "level": 2,
+        "start_line": 2,
+        "title": "Important Security",
+        "importance_score": 0.8999999999999999,
+        "end_line": 4
+      },
+      "Comments": {
+        "level": 2,
+        "start_line": 5,
+        "title": "Comments",
+        "importance_score": 0.5,
+        "end_line": 10
+      },
+      "Examples": {
+        "level": 2,
+        "start_line": 11,
+        "title": "Examples",
+        "importance_score": 0.5,
+        "end_line": 15
+      },
+      "Optional Section": {
+        "level": 2,
+        "start_line": 16,
+        "title": "Optional Section",
+        "importance_score": 0.5,
+        "end_line": 19
+      }
+    },
+    "code_languages": [],
+    "code_block_sizes": [],
+    "formatting_density": 0.03313253012048193,
+    "table_rows": 0,
+    "avg_line_length": 15.6,
+    "avg_word_length": 5.333333333333333,
+    "max_indent_level": 0,
+    "avg_indent_level": 0.0,
+    "reference_count": 0,
+    "unique_references": 0
+  },
+  "patterns": {
+    "optimization_effectiveness": 45.78313253012048,
+    "preferred_techniques": [],
+    "content_characteristics": {},
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "19:00-20:00",
+        "18:00-19:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 41.88070058009817,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 55.223550768731485,
+    "ml_confidence": 1.0,
+    "cluster_id": 1
+  },
+  "confidence": 1.0,
+  "timestamp": "2025-08-19T19:05:49.205141"
+}

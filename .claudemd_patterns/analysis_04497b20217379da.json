@@ -1,0 +1,54 @@
+{
+  "features": {
+    "file_path": "/tmp/tmpryql4tjf.md",
+    "content_length": 64,
+    "line_count": 1,
+    "word_count": 12,
+    "char_count": 64,
+    "timestamp": "2025-08-19T18:45:48.501636",
+    "header_count": 0,
+    "header_levels": [],
+    "bullet_list_items": 0,
+    "numbered_list_items": 0,
+    "markdown_links": 0,
+    "url_links": 0,
+    "code_blocks": 0,
+    "inline_code": 0,
+    "bold_elements": 0,
+    "italic_elements": 0,
+    "document_type": "general_markdown",
+    "sections": {},
+    "code_languages": [],
+    "code_block_sizes": [],
+    "formatting_density": 0.0,
+    "table_rows": 0,
+    "avg_line_length": 64.0,
+    "avg_word_length": 4.416666666666667,
+    "max_indent_level": 0,
+    "avg_indent_level": 0.0,
+    "reference_count": 0,
+    "unique_references": 0
+  },
+  "patterns": {
+    "optimization_effectiveness": 6.25,
+    "preferred_techniques": [],
+    "content_characteristics": {},
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "18:00-19:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 48.06428571428571,
+    "confidence_level": 1.0
+  },
+  "confidence": 0.8500000000000001,
+  "timestamp": "2025-08-19T18:45:48.508907"
+}

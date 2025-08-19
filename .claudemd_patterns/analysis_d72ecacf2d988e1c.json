@@ -1,0 +1,168 @@
+{
+  "features": {
+    "file_path": "/tmp/tmp2tvldxwy.md",
+    "content_length": 1618,
+    "line_count": 63,
+    "word_count": 221,
+    "char_count": 1618,
+    "timestamp": "2025-08-19T19:03:12.737001",
+    "header_count": 13,
+    "header_levels": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      2,
+      3,
+      3,
+      2,
+      2,
+      3,
+      3,
+      2
+    ],
+    "bullet_list_items": 22,
+    "numbered_list_items": 6,
+    "markdown_links": 0,
+    "url_links": 0,
+    "code_blocks": 0,
+    "inline_code": 0,
+    "bold_elements": 0,
+    "italic_elements": 0,
+    "document_type": "general_markdown",
+    "sections": {
+      "Project Configuration Guide": {
+        "level": 1,
+        "start_line": 0,
+        "title": "Project Configuration Guide",
+        "importance_score": 0.5,
+        "end_line": 1
+      },
+      "Overview": {
+        "level": 2,
+        "start_line": 2,
+        "title": "Overview",
+        "importance_score": 0.5,
+        "end_line": 4
+      },
+      "Basic Configuration": {
+        "level": 2,
+        "start_line": 5,
+        "title": "Basic Configuration",
+        "importance_score": 0.5,
+        "end_line": 7
+      },
+      "Database Configuration": {
+        "level": 3,
+        "start_line": 8,
+        "title": "Database Configuration",
+        "importance_score": 0.5,
+        "end_line": 15
+      },
+      "Server Configuration": {
+        "level": 3,
+        "start_line": 16,
+        "title": "Server Configuration",
+        "importance_score": 0.5,
+        "end_line": 22
+      },
+      "Advanced Configuration": {
+        "level": 2,
+        "start_line": 23,
+        "title": "Advanced Configuration",
+        "importance_score": 0.5,
+        "end_line": 25
+      },
+      "Performance Tuning": {
+        "level": 3,
+        "start_line": 26,
+        "title": "Performance Tuning",
+        "importance_score": 0.5,
+        "end_line": 30
+      },
+      "Security Settings": {
+        "level": 3,
+        "start_line": 31,
+        "title": "Security Settings",
+        "importance_score": 0.7,
+        "end_line": 35
+      },
+      "Environment Variables": {
+        "level": 2,
+        "start_line": 36,
+        "title": "Environment Variables",
+        "importance_score": 0.5,
+        "end_line": 41
+      },
+      "Deployment Options": {
+        "level": 2,
+        "start_line": 42,
+        "title": "Deployment Options",
+        "importance_score": 0.5,
+        "end_line": 44
+      },
+      "Option 1: Docker Deployment": {
+        "level": 3,
+        "start_line": 45,
+        "title": "Option 1: Docker Deployment",
+        "importance_score": 0.5,
+        "end_line": 50
+      },
+      "Option 2: Traditional Deployment": {
+        "level": 3,
+        "start_line": 51,
+        "title": "Option 2: Traditional Deployment",
+        "importance_score": 0.5,
+        "end_line": 56
+      },
+      "Troubleshooting": {
+        "level": 2,
+        "start_line": 57,
+        "title": "Troubleshooting",
+        "importance_score": 0.5,
+        "end_line": 62
+      }
+    },
+    "code_languages": [],
+    "code_block_sizes": [],
+    "formatting_density": 0.021631644004944377,
+    "table_rows": 0,
+    "avg_line_length": 24.682539682539684,
+    "avg_word_length": 6.239819004524887,
+    "max_indent_level": 0,
+    "avg_indent_level": 0.0,
+    "reference_count": 0,
+    "unique_references": 0
+  },
+  "patterns": {
+    "optimization_effectiveness": 100.0,
+    "preferred_techniques": [],
+    "content_characteristics": {
+      "document_type": "general_markdown",
+      "complexity_level": "low",
+      "structure_type": "list_heavy"
+    },
+    "user_behavior": {
+      "optimization_frequency": 10.0,
+      "preferred_file_types": [
+        ".md"
+      ],
+      "common_optimization_times": [
+        "18:00-19:00",
+        "19:00-20:00"
+      ]
+    }
+  },
+  "recommendations": {
+    "suggested_techniques": [],
+    "priority_sections": [],
+    "expected_reduction": 81.25,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 80.51948051948051,
+    "ml_confidence": 1.0,
+    "cluster_id": 2
+  },
+  "confidence": 1.0,
+  "timestamp": "2025-08-19T19:03:12.787511"
+}
