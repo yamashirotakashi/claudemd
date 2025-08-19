@@ -45,7 +45,12 @@ class ConfigurationManager:
             'security': {
                 'max_file_size': 10485760,  # 10MB
                 'allowed_extensions': ['.md', '.txt', '.yaml', '.yml', '.json'],
-                'safe_directories': [],
+                'safe_directories': [
+                    '/tmp/claude_md_processing',
+                    '/var/tmp/secure_processing',
+                    os.path.expanduser('~/Documents/claude_md_safe'),
+                    os.path.join(os.path.dirname(__file__), '..', '..', 'temp')
+                ],
                 'enable_audit_log': True
             },
             'token_reduction': {
