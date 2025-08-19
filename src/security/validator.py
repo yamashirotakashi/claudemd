@@ -247,7 +247,10 @@ if __name__ == "__main__":
         try:
             result = validate_file_path(test_path)
             print(f"Path: {test_path} -> {'SAFE' if result else 'UNSAFE'}")
+        except (ValueError, OSError, PermissionError) as e:
+            print(f"Path: {test_path} -> ERROR: {type(e).__name__}: {e}")
         except Exception as e:
-            print(f"Path: {test_path} -> ERROR: {e}")
+            # Catch-all for unexpected errors, but log the specific type
+            print(f"Path: {test_path} -> UNEXPECTED ERROR: {type(e).__name__}: {e}")
     
     print("\nSecurity validation complete.")

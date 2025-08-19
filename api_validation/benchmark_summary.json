@@ -16,9 +16,9 @@
       "max": 0.98
     },
     "performance_statistics": {
-      "mean_processing_time": 3.110551,
-      "median_processing_time": 3.615873,
-      "total_processing_time": 15.552755
+      "mean_processing_time": 3.1095206,
+      "median_processing_time": 3.554171,
+      "total_processing_time": 15.547603
     }
   },
   "document_type_analysis": {

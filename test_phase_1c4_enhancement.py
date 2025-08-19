@@ -102,14 +102,18 @@ Results are based on the methods from Section 2.
         print("📈 Expected improvement: Enhanced relationship detection and boundary optimization")
         print("🔬 Ready for integration with Phase 1C-1, 1C-2, and 1C-3 implementations")
         
-        return True
-        
     except Exception as e:
         print(f"❌ Test failed: {str(e)}")
         import traceback
         traceback.print_exc()
-        return False
+        # For pytest compatibility, raise the exception instead of returning False
+        raise
 
 if __name__ == "__main__":
-    success = test_phase_1c4_enhancements()
-    sys.exit(0 if success else 1)
+    try:
+        test_phase_1c4_enhancements()
+        print("\n✅ All Phase 1C-4 tests passed successfully!")
+        sys.exit(0)
+    except Exception:
+        print("\n❌ Phase 1C-4 tests failed!")
+        sys.exit(1)

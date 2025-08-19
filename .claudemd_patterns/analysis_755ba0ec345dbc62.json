@@ -5,7 +5,7 @@
     "line_count": 407,
     "word_count": 864,
     "char_count": 8415,
-    "timestamp": "2025-08-19T19:06:25.582000",
+    "timestamp": "2025-08-19T21:09:31.368467",
     "header_count": 56,
     "header_levels": [
       1,
@@ -449,9 +449,9 @@
     },
     "code_languages": [
       "dockerfile",
-      "bash",
       "yaml",
-      "nginx"
+      "nginx",
+      "bash"
     ],
     "code_block_sizes": [
       604,
@@ -486,6 +486,7 @@
       ],
       "common_optimization_times": [
         "19:00-20:00",
+        "21:00-22:00",
         "18:00-19:00"
       ]
     }
@@ -494,11 +495,11 @@
     "suggested_techniques": [],
     "priority_sections": [],
     "expected_reduction": 100.0,
-    "confidence_level": 0.6000000000000001,
-    "ml_expected_reduction": 87.92390405293631,
+    "confidence_level": 1.0,
+    "ml_expected_reduction": 91.73740803621958,
     "ml_confidence": 1.0,
-    "cluster_id": 0
+    "cluster_id": 3
   },
-  "confidence": 0.75,
-  "timestamp": "2025-08-19T19:06:25.651135"
+  "confidence": 0.85,
+  "timestamp": "2025-08-19T21:09:31.459969"
 }

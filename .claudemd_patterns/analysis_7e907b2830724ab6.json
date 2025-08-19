@@ -1,11 +1,11 @@
 {
   "features": {
-    "file_path": "/test/convenience.md",
-    "content_length": 35,
-    "line_count": 3,
-    "word_count": 6,
-    "char_count": 35,
-    "timestamp": "2025-08-19T21:08:50.028929",
+    "file_path": "/tmp/tmpffzeqiuc.md",
+    "content_length": 25,
+    "line_count": 2,
+    "word_count": 5,
+    "char_count": 25,
+    "timestamp": "2025-08-19T20:30:19.634800",
     "header_count": 1,
     "header_levels": [
       1
@@ -25,22 +25,22 @@
         "start_line": 0,
         "title": "Test",
         "importance_score": 0.5,
-        "end_line": 2
+        "end_line": 1
       }
     },
     "code_languages": [],
     "code_block_sizes": [],
-    "formatting_density": 0.02857142857142857,
+    "formatting_density": 0.04,
     "table_rows": 0,
-    "avg_line_length": 11.0,
-    "avg_word_length": 4.833333333333333,
+    "avg_line_length": 12.0,
+    "avg_word_length": 4.2,
     "max_indent_level": 0,
     "avg_indent_level": 0.0,
     "reference_count": 0,
     "unique_references": 0
   },
   "patterns": {
-    "optimization_effectiveness": 68.5,
+    "optimization_effectiveness": 33.33333333333333,
     "preferred_techniques": [],
     "content_characteristics": {},
     "user_behavior": {
@@ -51,19 +51,19 @@
       "common_optimization_times": [
         "19:00-20:00",
         "18:00-19:00",
-        "21:00-22:00"
+        "20:00-21:00"
       ]
     }
   },
   "recommendations": {
     "suggested_techniques": [],
     "priority_sections": [],
-    "expected_reduction": 52.528571428571425,
+    "expected_reduction": 53.480952380952374,
     "confidence_level": 1.0,
-    "ml_expected_reduction": 58.41448801742919,
+    "ml_expected_reduction": 44.82295886619143,
     "ml_confidence": 1.0,
-    "cluster_id": 1
+    "cluster_id": 0
   },
   "confidence": 1.0,
-  "timestamp": "2025-08-19T21:08:50.102287"
+  "timestamp": "2025-08-19T20:30:19.706698"
 }

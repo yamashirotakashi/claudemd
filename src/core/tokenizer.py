@@ -469,7 +469,10 @@ class SmartAnalysisEngine:
         try:
             tfidf_matrix = self.semantic_vectorizer.fit_transform([content1, content2])
             tfidf_similarity = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:2])[0][0]
-        except:
+        except (ValueError, AttributeError, ImportError) as e:
+            # Log the specific error for debugging
+            import logging
+            logging.warning(f"TF-IDF similarity calculation failed: {type(e).__name__}: {e}")
             tfidf_similarity = 0.0
         
         # Weighted combination
@@ -3340,7 +3343,10 @@ class ClaudeMdTokenizer:
         from ..security.validator import SecurityValidator
         try:
             security_validator = SecurityValidator()
-        except:
+        except (ImportError, AttributeError, OSError) as e:
+            # Log security validator initialization failure - critical for security
+            import logging
+            logging.error(f"Failed to initialize SecurityValidator: {type(e).__name__}: {e}. Security validation will be disabled.")
             security_validator = None
             
         self.smart_analysis_engine = SmartAnalysisEngine(security_validator=security_validator)

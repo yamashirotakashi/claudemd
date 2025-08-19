@@ -5,7 +5,7 @@
     "line_count": 329,
     "word_count": 688,
     "char_count": 5677,
-    "timestamp": "2025-08-19T19:06:20.767857",
+    "timestamp": "2025-08-19T21:09:26.553567",
     "header_count": 28,
     "header_levels": [
       1,
@@ -245,10 +245,10 @@
       }
     },
     "code_languages": [
-      "bash",
-      "json",
       "javascript",
-      "python"
+      "json",
+      "python",
+      "bash"
     ],
     "code_block_sizes": [
       26,
@@ -295,6 +295,7 @@
       ],
       "common_optimization_times": [
         "19:00-20:00",
+        "21:00-22:00",
         "18:00-19:00"
       ]
     }
@@ -304,10 +305,10 @@
     "priority_sections": [],
     "expected_reduction": 100.0,
     "confidence_level": 1.0,
-    "ml_expected_reduction": 100.0,
-    "ml_confidence": 0.30000000000000004,
-    "cluster_id": 4
+    "ml_expected_reduction": 86.08562691131499,
+    "ml_confidence": 0.6000000000000001,
+    "cluster_id": 0
   },
-  "confidence": 0.9500000000000001,
-  "timestamp": "2025-08-19T19:06:20.832874"
+  "confidence": 1.0,
+  "timestamp": "2025-08-19T21:09:26.643710"
 }

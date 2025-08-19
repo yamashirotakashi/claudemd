@@ -5,7 +5,7 @@
     "line_count": 608,
     "word_count": 2032,
     "char_count": 13790,
-    "timestamp": "2025-08-19T19:06:33.214579",
+    "timestamp": "2025-08-19T21:09:38.967196",
     "header_count": 42,
     "header_levels": [
       1,
@@ -382,6 +382,7 @@
       ],
       "common_optimization_times": [
         "19:00-20:00",
+        "21:00-22:00",
         "18:00-19:00"
       ]
     }
@@ -391,10 +392,10 @@
     "priority_sections": [],
     "expected_reduction": 100.0,
     "confidence_level": 1.0,
-    "ml_expected_reduction": 100.0,
-    "ml_confidence": 0.6000000000000001,
-    "cluster_id": 2
+    "ml_expected_reduction": 93.50649350649351,
+    "ml_confidence": 1.0,
+    "cluster_id": 3
   },
-  "confidence": 0.9,
-  "timestamp": "2025-08-19T19:06:33.289622"
+  "confidence": 1.0,
+  "timestamp": "2025-08-19T21:09:39.066570"
 }

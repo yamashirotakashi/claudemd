@@ -86,18 +86,19 @@ This concludes the test document.
         # Mock the tokenizer optimization
         with patch.object(self.validator.tokenizer, 'analyze_file') as mock_analyze, \
              patch.object(self.validator.tokenizer, 'optimize_file') as mock_optimize, \
-             patch.object(self.validator.tokenizer, 'estimate_tokens') as mock_estimate:
+             patch.object(self.validator.tokenizer, '_estimate_tokens') as mock_estimate:
+            
+            from src.core.tokenizer import TokenAnalysis
             
             mock_analyze.return_value = {'section_count': 3}
-            mock_optimize.return_value = {
-                'optimized_content': test_content[:len(test_content)//2],
-                'final_tokens': 100,
-                'semantic_preservation_score': 0.98,
-                'structure_preservation': 0.99,
-                'reference_integrity': 1.0,
-                'content_coherence': 0.97,
-                'formatting_preservation': 0.99
-            }
+            mock_optimize.return_value = TokenAnalysis(
+                original_tokens=400,
+                optimized_tokens=100,
+                reduction_ratio=0.75,
+                preserved_sections=['Overview', 'Examples'],
+                removed_sections=['Redundant content'],
+                optimization_notes=['Removed duplicates', 'Compressed examples']
+            )
             mock_estimate.return_value = 400
             
             result = self.validator._validate_single_document(str(test_doc))
@@ -236,7 +237,7 @@ This concludes the test document.
         self.validator._save_certification_report(report, self.temp_dir)
         
         mock_open.assert_called_once()
-        mock_file.write.assert_called_once()
+        mock_file.write.assert_called()  # json.dump calls write multiple times
         
     @patch('builtins.open', create=True)
     def test_generate_achievement_certificate(self, mock_open):
@@ -309,7 +310,8 @@ This concludes the test document.
         self.validator._create_benchmark_summary(results, self.temp_dir)
         
         mock_open.assert_called_once()
-        written_content = mock_file.write.call_args[0][0]
+        # json.dump calls write multiple times, so we need to combine all calls
+        written_content = ''.join(call[0][0] for call in mock_file.write.call_args_list)
         summary_data = json.loads(written_content)
         
         assert "benchmark_summary" in summary_data

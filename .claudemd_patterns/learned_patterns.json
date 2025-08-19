@@ -1726,6 +1726,586 @@
             "unique_references": 0
           },
           "timestamp": "2025-08-19T20:09:57.822512"
+        },
+        {
+          "effectiveness": 28.57142857142857,
+          "features": {
+            "file_path": "/tmp/tmpju9cf17n.md",
+            "content_length": 30,
+            "line_count": 2,
+            "word_count": 6,
+            "char_count": 30,
+            "timestamp": "2025-08-19T20:30:20.092543",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 1
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.03333333333333333,
+            "table_rows": 0,
+            "avg_line_length": 14.5,
+            "avg_word_length": 4.166666666666667,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T20:30:20.101934"
+        },
+        {
+          "effectiveness": 68.5,
+          "features": {
+            "file_path": "/test/convenience.md",
+            "content_length": 35,
+            "line_count": 3,
+            "word_count": 6,
+            "char_count": 35,
+            "timestamp": "2025-08-19T20:30:20.222721",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 2
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.02857142857142857,
+            "table_rows": 0,
+            "avg_line_length": 11.0,
+            "avg_word_length": 4.833333333333333,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T20:30:20.234349"
+        },
+        {
+          "effectiveness": 28.57142857142857,
+          "features": {
+            "file_path": "/tmp/tmpl8mp0trl.md",
+            "content_length": 30,
+            "line_count": 2,
+            "word_count": 6,
+            "char_count": 30,
+            "timestamp": "2025-08-19T21:02:43.347458",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 1
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.03333333333333333,
+            "table_rows": 0,
+            "avg_line_length": 14.5,
+            "avg_word_length": 4.166666666666667,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:02:43.358488"
+        },
+        {
+          "effectiveness": 68.5,
+          "features": {
+            "file_path": "/test/convenience.md",
+            "content_length": 35,
+            "line_count": 3,
+            "word_count": 6,
+            "char_count": 35,
+            "timestamp": "2025-08-19T21:02:43.542424",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 2
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.02857142857142857,
+            "table_rows": 0,
+            "avg_line_length": 11.0,
+            "avg_word_length": 4.833333333333333,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:02:43.554387"
+        },
+        {
+          "effectiveness": 28.57142857142857,
+          "features": {
+            "file_path": "/tmp/tmpbx9mi9e4.md",
+            "content_length": 30,
+            "line_count": 2,
+            "word_count": 6,
+            "char_count": 30,
+            "timestamp": "2025-08-19T21:06:38.333207",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 1
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.03333333333333333,
+            "table_rows": 0,
+            "avg_line_length": 14.5,
+            "avg_word_length": 4.166666666666667,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:06:38.342682"
+        },
+        {
+          "effectiveness": 68.5,
+          "features": {
+            "file_path": "/test/convenience.md",
+            "content_length": 35,
+            "line_count": 3,
+            "word_count": 6,
+            "char_count": 35,
+            "timestamp": "2025-08-19T21:06:38.475211",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 2
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.02857142857142857,
+            "table_rows": 0,
+            "avg_line_length": 11.0,
+            "avg_word_length": 4.833333333333333,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:06:38.485116"
+        },
+        {
+          "effectiveness": 28.57142857142857,
+          "features": {
+            "file_path": "/tmp/tmph3e3mgx4.md",
+            "content_length": 30,
+            "line_count": 2,
+            "word_count": 6,
+            "char_count": 30,
+            "timestamp": "2025-08-19T21:08:49.885076",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 1
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.03333333333333333,
+            "table_rows": 0,
+            "avg_line_length": 14.5,
+            "avg_word_length": 4.166666666666667,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:08:49.895740"
+        },
+        {
+          "effectiveness": 68.5,
+          "features": {
+            "file_path": "/test/convenience.md",
+            "content_length": 35,
+            "line_count": 3,
+            "word_count": 6,
+            "char_count": 35,
+            "timestamp": "2025-08-19T21:08:50.028929",
+            "header_count": 1,
+            "header_levels": [
+              1
+            ],
+            "bullet_list_items": 0,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Test": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Test",
+                "importance_score": 0.5,
+                "end_line": 2
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.02857142857142857,
+            "table_rows": 0,
+            "avg_line_length": 11.0,
+            "avg_word_length": 4.833333333333333,
+            "max_indent_level": 0,
+            "avg_indent_level": 0.0,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:08:50.039369"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "temp_test.md",
+            "content_length": 1660,
+            "line_count": 73,
+            "word_count": 210,
+            "char_count": 1660,
+            "timestamp": "2025-08-19T21:09:07.620104",
+            "header_count": 9,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            "bullet_list_items": 8,
+            "numbered_list_items": 5,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 3,
+            "inline_code": 5,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Sample Claude.md Content": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Sample Claude.md Content",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 6
+              },
+              "Configuration Examples": {
+                "level": 2,
+                "start_line": 7,
+                "title": "Configuration Examples",
+                "importance_score": 0.5,
+                "end_line": 9
+              },
+              "Example 1: Basic Configuration": {
+                "level": 3,
+                "start_line": 10,
+                "title": "Example 1: Basic Configuration",
+                "importance_score": 0.5,
+                "end_line": 17
+              },
+              "Example 2: Advanced Configuration": {
+                "level": 3,
+                "start_line": 18,
+                "title": "Example 2: Advanced Configuration",
+                "importance_score": 0.5,
+                "end_line": 28
+              },
+              "Example 3: Complex Configuration": {
+                "level": 3,
+                "start_line": 29,
+                "title": "Example 3: Complex Configuration",
+                "importance_score": 0.5,
+                "end_line": 46
+              },
+              "Best Practices": {
+                "level": 2,
+                "start_line": 47,
+                "title": "Best Practices",
+                "importance_score": 0.5,
+                "end_line": 54
+              },
+              "Examples and Templates": {
+                "level": 2,
+                "start_line": 55,
+                "title": "Examples and Templates",
+                "importance_score": 0.5,
+                "end_line": 63
+              },
+              "Optional Content": {
+                "level": 2,
+                "start_line": 64,
+                "title": "Optional Content",
+                "importance_score": 0.5,
+                "end_line": 72
+              }
+            },
+            "code_languages": [
+              "yaml"
+            ],
+            "code_block_sizes": [
+              52,
+              125,
+              224
+            ],
+            "formatting_density": 0.024096385542168676,
+            "table_rows": 0,
+            "avg_line_length": 21.73972602739726,
+            "avg_word_length": 6.495238095238095,
+            "max_indent_level": 4,
+            "avg_indent_level": 1.0158730158730158,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:09:07.637498"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "temp_test.md",
+            "content_length": 1660,
+            "line_count": 73,
+            "word_count": 210,
+            "char_count": 1660,
+            "timestamp": "2025-08-19T21:09:39.245300",
+            "header_count": 9,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              3,
+              3,
+              2,
+              2,
+              2
+            ],
+            "bullet_list_items": 8,
+            "numbered_list_items": 5,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 3,
+            "inline_code": 5,
+            "bold_elements": 0,
+            "italic_elements": 0,
+            "document_type": "general_markdown",
+            "sections": {
+              "Sample Claude.md Content": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Sample Claude.md Content",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 6
+              },
+              "Configuration Examples": {
+                "level": 2,
+                "start_line": 7,
+                "title": "Configuration Examples",
+                "importance_score": 0.5,
+                "end_line": 9
+              },
+              "Example 1: Basic Configuration": {
+                "level": 3,
+                "start_line": 10,
+                "title": "Example 1: Basic Configuration",
+                "importance_score": 0.5,
+                "end_line": 17
+              },
+              "Example 2: Advanced Configuration": {
+                "level": 3,
+                "start_line": 18,
+                "title": "Example 2: Advanced Configuration",
+                "importance_score": 0.5,
+                "end_line": 28
+              },
+              "Example 3: Complex Configuration": {
+                "level": 3,
+                "start_line": 29,
+                "title": "Example 3: Complex Configuration",
+                "importance_score": 0.5,
+                "end_line": 46
+              },
+              "Best Practices": {
+                "level": 2,
+                "start_line": 47,
+                "title": "Best Practices",
+                "importance_score": 0.5,
+                "end_line": 54
+              },
+              "Examples and Templates": {
+                "level": 2,
+                "start_line": 55,
+                "title": "Examples and Templates",
+                "importance_score": 0.5,
+                "end_line": 63
+              },
+              "Optional Content": {
+                "level": 2,
+                "start_line": 64,
+                "title": "Optional Content",
+                "importance_score": 0.5,
+                "end_line": 72
+              }
+            },
+            "code_languages": [
+              "yaml"
+            ],
+            "code_block_sizes": [
+              52,
+              125,
+              224
+            ],
+            "formatting_density": 0.024096385542168676,
+            "table_rows": 0,
+            "avg_line_length": 21.73972602739726,
+            "avg_word_length": 6.495238095238095,
+            "max_indent_level": 4,
+            "avg_indent_level": 1.0158730158730158,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:09:39.255237"
         }
       ],
       "documentation": [
@@ -3693,6 +4273,1316 @@
             "unique_references": 11
           },
           "timestamp": "2025-08-19T19:06:33.227287"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/technical_documentation.md",
+            "content_length": 4309,
+            "line_count": 192,
+            "word_count": 555,
+            "char_count": 4309,
+            "timestamp": "2025-08-19T21:09:09.310798",
+            "header_count": 30,
+            "header_levels": [
+              1,
+              2,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              1,
+              1,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4
+            ],
+            "bullet_list_items": 51,
+            "numbered_list_items": 15,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 3,
+            "inline_code": 12,
+            "bold_elements": 8,
+            "italic_elements": 15,
+            "document_type": "documentation",
+            "sections": {
+              "Technical Documentation": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Technical Documentation",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 5
+              },
+              "System Architecture": {
+                "level": 3,
+                "start_line": 6,
+                "title": "System Architecture",
+                "importance_score": 0.5,
+                "end_line": 9
+              },
+              "Core Services": {
+                "level": 4,
+                "start_line": 10,
+                "title": "Core Services",
+                "importance_score": 0.5,
+                "end_line": 15
+              },
+              "Database Layer": {
+                "level": 4,
+                "start_line": 16,
+                "title": "Database Layer",
+                "importance_score": 0.5,
+                "end_line": 21
+              },
+              "API Gateway": {
+                "level": 4,
+                "start_line": 22,
+                "title": "API Gateway",
+                "importance_score": 0.5,
+                "end_line": 29
+              },
+              "Implementation Details": {
+                "level": 3,
+                "start_line": 30,
+                "title": "Implementation Details",
+                "importance_score": 0.5,
+                "end_line": 33
+              },
+              "Design Patterns": {
+                "level": 4,
+                "start_line": 34,
+                "title": "Design Patterns",
+                "importance_score": 0.5,
+                "end_line": 39
+              },
+              "Code Structure": {
+                "level": 4,
+                "start_line": 40,
+                "title": "Code Structure",
+                "importance_score": 0.5,
+                "end_line": 60
+              },
+              "Configuration": {
+                "level": 3,
+                "start_line": 61,
+                "title": "Configuration",
+                "importance_score": 0.5,
+                "end_line": 64
+              },
+              "Environment Variables": {
+                "level": 4,
+                "start_line": 65,
+                "title": "Environment Variables",
+                "importance_score": 0.5,
+                "end_line": 70
+              },
+              "Configuration Files": {
+                "level": 4,
+                "start_line": 71,
+                "title": "Configuration Files",
+                "importance_score": 0.5,
+                "end_line": 75
+              },
+              "Deployment": {
+                "level": 3,
+                "start_line": 76,
+                "title": "Deployment",
+                "importance_score": 0.5,
+                "end_line": 80
+              },
+              "Build the image": {
+                "level": 1,
+                "start_line": 81,
+                "title": "Build the image",
+                "importance_score": 0.5,
+                "end_line": 83
+              },
+              "Run the container": {
+                "level": 1,
+                "start_line": 84,
+                "title": "Run the container",
+                "importance_score": 0.5,
+                "end_line": 111
+              },
+              "Monitoring and Logging": {
+                "level": 3,
+                "start_line": 112,
+                "title": "Monitoring and Logging",
+                "importance_score": 0.5,
+                "end_line": 115
+              },
+              "Metrics": {
+                "level": 4,
+                "start_line": 116,
+                "title": "Metrics",
+                "importance_score": 0.5,
+                "end_line": 121
+              },
+              "Logging": {
+                "level": 4,
+                "start_line": 122,
+                "title": "Logging",
+                "importance_score": 0.5,
+                "end_line": 127
+              },
+              "Security": {
+                "level": 3,
+                "start_line": 128,
+                "title": "Security",
+                "importance_score": 0.7,
+                "end_line": 131
+              },
+              "Authentication": {
+                "level": 4,
+                "start_line": 132,
+                "title": "Authentication",
+                "importance_score": 0.5,
+                "end_line": 137
+              },
+              "Authorization": {
+                "level": 4,
+                "start_line": 138,
+                "title": "Authorization",
+                "importance_score": 0.5,
+                "end_line": 142
+              },
+              "Data Protection": {
+                "level": 4,
+                "start_line": 143,
+                "title": "Data Protection",
+                "importance_score": 0.5,
+                "end_line": 148
+              },
+              "Performance Optimization": {
+                "level": 3,
+                "start_line": 149,
+                "title": "Performance Optimization",
+                "importance_score": 0.5,
+                "end_line": 152
+              },
+              "Caching": {
+                "level": 4,
+                "start_line": 153,
+                "title": "Caching",
+                "importance_score": 0.5,
+                "end_line": 158
+              },
+              "Database Optimization": {
+                "level": 4,
+                "start_line": 159,
+                "title": "Database Optimization",
+                "importance_score": 0.5,
+                "end_line": 164
+              },
+              "Code Optimization": {
+                "level": 4,
+                "start_line": 165,
+                "title": "Code Optimization",
+                "importance_score": 0.5,
+                "end_line": 170
+              },
+              "Troubleshooting": {
+                "level": 3,
+                "start_line": 171,
+                "title": "Troubleshooting",
+                "importance_score": 0.5,
+                "end_line": 174
+              },
+              "Performance Issues": {
+                "level": 4,
+                "start_line": 175,
+                "title": "Performance Issues",
+                "importance_score": 0.5,
+                "end_line": 180
+              },
+              "Connectivity Issues": {
+                "level": 4,
+                "start_line": 181,
+                "title": "Connectivity Issues",
+                "importance_score": 0.5,
+                "end_line": 186
+              },
+              "Data Issues": {
+                "level": 4,
+                "start_line": 187,
+                "title": "Data Issues",
+                "importance_score": 0.5,
+                "end_line": 191
+              }
+            },
+            "code_languages": [
+              "yaml",
+              "bash"
+            ],
+            "code_block_sizes": [
+              344,
+              106,
+              347
+            ],
+            "formatting_density": 0.044789974472035275,
+            "table_rows": 0,
+            "avg_line_length": 21.442708333333332,
+            "avg_word_length": 6.4972972972972975,
+            "max_indent_level": 6,
+            "avg_indent_level": 0.5789473684210527,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:09:09.321474"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/faq_document.md",
+            "content_length": 13790,
+            "line_count": 608,
+            "word_count": 2032,
+            "char_count": 13790,
+            "timestamp": "2025-08-19T21:09:23.325289",
+            "header_count": 42,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bullet_list_items": 225,
+            "numbered_list_items": 36,
+            "markdown_links": 11,
+            "url_links": 3,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 124,
+            "italic_elements": 247,
+            "document_type": "documentation",
+            "sections": {
+              "Frequently Asked Questions (FAQ)": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Frequently Asked Questions (FAQ)",
+                "importance_score": 0.5,
+                "end_line": 3
+              },
+              "Table of Contents": {
+                "level": 2,
+                "start_line": 4,
+                "title": "Table of Contents",
+                "importance_score": 0.5,
+                "end_line": 16
+              },
+              "Account and Billing": {
+                "level": 2,
+                "start_line": 17,
+                "title": "Account and Billing",
+                "importance_score": 0.5,
+                "end_line": 18
+              },
+              "Q: How do I create an account?": {
+                "level": 3,
+                "start_line": 19,
+                "title": "Q: How do I create an account?",
+                "importance_score": 0.5,
+                "end_line": 29
+              },
+              "Q: What are the different pricing plans?": {
+                "level": 3,
+                "start_line": 30,
+                "title": "Q: What are the different pricing plans?",
+                "importance_score": 0.55,
+                "end_line": 59
+              },
+              "Q: Can I change my plan at any time?": {
+                "level": 3,
+                "start_line": 60,
+                "title": "Q: Can I change my plan at any time?",
+                "importance_score": 0.5,
+                "end_line": 70
+              },
+              "Q: Do you offer refunds?": {
+                "level": 3,
+                "start_line": 71,
+                "title": "Q: Do you offer refunds?",
+                "importance_score": 0.5,
+                "end_line": 74
+              },
+              "Q: How do I cancel my subscription?": {
+                "level": 3,
+                "start_line": 75,
+                "title": "Q: How do I cancel my subscription?",
+                "importance_score": 0.5,
+                "end_line": 85
+              },
+              "Getting Started": {
+                "level": 2,
+                "start_line": 86,
+                "title": "Getting Started",
+                "importance_score": 0.5,
+                "end_line": 87
+              },
+              "Q: What's the best way to get started?": {
+                "level": 3,
+                "start_line": 88,
+                "title": "Q: What's the best way to get started?",
+                "importance_score": 0.55,
+                "end_line": 97
+              },
+              "Q: Do you have sample data I can use for testing?": {
+                "level": 3,
+                "start_line": 98,
+                "title": "Q: Do you have sample data I can use for testing?",
+                "importance_score": 0.55,
+                "end_line": 109
+              },
+              "Q: How long does it take to set up a project?": {
+                "level": 3,
+                "start_line": 110,
+                "title": "Q: How long does it take to set up a project?",
+                "importance_score": 0.5,
+                "end_line": 118
+              },
+              "Q: Can I import data from Excel files?": {
+                "level": 3,
+                "start_line": 119,
+                "title": "Q: Can I import data from Excel files?",
+                "importance_score": 0.5,
+                "end_line": 132
+              },
+              "Data Management": {
+                "level": 2,
+                "start_line": 133,
+                "title": "Data Management",
+                "importance_score": 0.5,
+                "end_line": 134
+              },
+              "Q: What data sources can I connect to?": {
+                "level": 3,
+                "start_line": 135,
+                "title": "Q: What data sources can I connect to?",
+                "importance_score": 0.55,
+                "end_line": 162
+              },
+              "Q: How much data can I store?": {
+                "level": 3,
+                "start_line": 163,
+                "title": "Q: How much data can I store?",
+                "importance_score": 0.5,
+                "end_line": 173
+              },
+              "Q: Is my data backed up?": {
+                "level": 3,
+                "start_line": 174,
+                "title": "Q: Is my data backed up?",
+                "importance_score": 0.5,
+                "end_line": 188
+              },
+              "Q: Can I export my data?": {
+                "level": 3,
+                "start_line": 189,
+                "title": "Q: Can I export my data?",
+                "importance_score": 0.5,
+                "end_line": 206
+              },
+              "Analytics and Reporting": {
+                "level": 2,
+                "start_line": 207,
+                "title": "Analytics and Reporting",
+                "importance_score": 0.5,
+                "end_line": 208
+              },
+              "Q: What types of analytics can I perform?": {
+                "level": 3,
+                "start_line": 209,
+                "title": "Q: What types of analytics can I perform?",
+                "importance_score": 0.55,
+                "end_line": 236
+              },
+              "Q: Can I create custom visualizations?": {
+                "level": 3,
+                "start_line": 237,
+                "title": "Q: Can I create custom visualizations?",
+                "importance_score": 0.55,
+                "end_line": 258
+              },
+              "Q: How do I share reports with my team?": {
+                "level": 3,
+                "start_line": 259,
+                "title": "Q: How do I share reports with my team?",
+                "importance_score": 0.55,
+                "end_line": 282
+              },
+              "API and Integrations": {
+                "level": 2,
+                "start_line": 283,
+                "title": "API and Integrations",
+                "importance_score": 0.5,
+                "end_line": 284
+              },
+              "Q: Do you provide an API?": {
+                "level": 3,
+                "start_line": 285,
+                "title": "Q: Do you provide an API?",
+                "importance_score": 0.55,
+                "end_line": 306
+              },
+              "Q: What integrations are available?": {
+                "level": 3,
+                "start_line": 307,
+                "title": "Q: What integrations are available?",
+                "importance_score": 0.55,
+                "end_line": 330
+              },
+              "Q: Can I build custom integrations?": {
+                "level": 3,
+                "start_line": 331,
+                "title": "Q: Can I build custom integrations?",
+                "importance_score": 0.55,
+                "end_line": 354
+              },
+              "Security and Privacy": {
+                "level": 2,
+                "start_line": 355,
+                "title": "Security and Privacy",
+                "importance_score": 0.7,
+                "end_line": 356
+              },
+              "Q: How secure is my data?": {
+                "level": 3,
+                "start_line": 357,
+                "title": "Q: How secure is my data?",
+                "importance_score": 0.55,
+                "end_line": 378
+              },
+              "Q: Where is my data stored?": {
+                "level": 3,
+                "start_line": 379,
+                "title": "Q: Where is my data stored?",
+                "importance_score": 0.5,
+                "end_line": 393
+              },
+              "Q: Who has access to my data?": {
+                "level": 3,
+                "start_line": 394,
+                "title": "Q: Who has access to my data?",
+                "importance_score": 0.5,
+                "end_line": 409
+              },
+              "Q: How do you handle data privacy?": {
+                "level": 3,
+                "start_line": 410,
+                "title": "Q: How do you handle data privacy?",
+                "importance_score": 0.5,
+                "end_line": 427
+              },
+              "Performance and Limits": {
+                "level": 2,
+                "start_line": 428,
+                "title": "Performance and Limits",
+                "importance_score": 0.5,
+                "end_line": 429
+              },
+              "Q: What are the usage limits?": {
+                "level": 3,
+                "start_line": 430,
+                "title": "Q: What are the usage limits?",
+                "importance_score": 0.55,
+                "end_line": 451
+              },
+              "Q: How can I improve performance?": {
+                "level": 3,
+                "start_line": 452,
+                "title": "Q: How can I improve performance?",
+                "importance_score": 0.55,
+                "end_line": 473
+              },
+              "Q: What happens if I exceed limits?": {
+                "level": 3,
+                "start_line": 474,
+                "title": "Q: What happens if I exceed limits?",
+                "importance_score": 0.55,
+                "end_line": 491
+              },
+              "Troubleshooting": {
+                "level": 2,
+                "start_line": 492,
+                "title": "Troubleshooting",
+                "importance_score": 0.5,
+                "end_line": 493
+              },
+              "Q: I can't log into my account": {
+                "level": 3,
+                "start_line": 494,
+                "title": "Q: I can't log into my account",
+                "importance_score": 0.55,
+                "end_line": 512
+              },
+              "Q: My data upload is failing": {
+                "level": 3,
+                "start_line": 513,
+                "title": "Q: My data upload is failing",
+                "importance_score": 0.55,
+                "end_line": 531
+              },
+              "Q: My analysis is running slowly": {
+                "level": 3,
+                "start_line": 532,
+                "title": "Q: My analysis is running slowly",
+                "importance_score": 0.55,
+                "end_line": 550
+              },
+              "Q: I'm getting API errors": {
+                "level": 3,
+                "start_line": 551,
+                "title": "Q: I'm getting API errors",
+                "importance_score": 0.55,
+                "end_line": 569
+              },
+              "Q: How do I get support?": {
+                "level": 3,
+                "start_line": 570,
+                "title": "Q: How do I get support?",
+                "importance_score": 0.55,
+                "end_line": 597
+              },
+              "Still Have Questions?": {
+                "level": 2,
+                "start_line": 598,
+                "title": "Still Have Questions?",
+                "importance_score": 0.5,
+                "end_line": 607
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.051631617113850614,
+            "table_rows": 0,
+            "avg_line_length": 21.68092105263158,
+            "avg_word_length": 5.646653543307087,
+            "max_indent_level": 3,
+            "avg_indent_level": 0.24324324324324326,
+            "reference_count": 11,
+            "unique_references": 11
+          },
+          "timestamp": "2025-08-19T21:09:23.338490"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/technical_documentation.md",
+            "content_length": 4309,
+            "line_count": 192,
+            "word_count": 555,
+            "char_count": 4309,
+            "timestamp": "2025-08-19T21:09:25.051125",
+            "header_count": 30,
+            "header_levels": [
+              1,
+              2,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              1,
+              1,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4
+            ],
+            "bullet_list_items": 51,
+            "numbered_list_items": 15,
+            "markdown_links": 0,
+            "url_links": 0,
+            "code_blocks": 3,
+            "inline_code": 12,
+            "bold_elements": 8,
+            "italic_elements": 15,
+            "document_type": "documentation",
+            "sections": {
+              "Technical Documentation": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Technical Documentation",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 5
+              },
+              "System Architecture": {
+                "level": 3,
+                "start_line": 6,
+                "title": "System Architecture",
+                "importance_score": 0.5,
+                "end_line": 9
+              },
+              "Core Services": {
+                "level": 4,
+                "start_line": 10,
+                "title": "Core Services",
+                "importance_score": 0.5,
+                "end_line": 15
+              },
+              "Database Layer": {
+                "level": 4,
+                "start_line": 16,
+                "title": "Database Layer",
+                "importance_score": 0.5,
+                "end_line": 21
+              },
+              "API Gateway": {
+                "level": 4,
+                "start_line": 22,
+                "title": "API Gateway",
+                "importance_score": 0.5,
+                "end_line": 29
+              },
+              "Implementation Details": {
+                "level": 3,
+                "start_line": 30,
+                "title": "Implementation Details",
+                "importance_score": 0.5,
+                "end_line": 33
+              },
+              "Design Patterns": {
+                "level": 4,
+                "start_line": 34,
+                "title": "Design Patterns",
+                "importance_score": 0.5,
+                "end_line": 39
+              },
+              "Code Structure": {
+                "level": 4,
+                "start_line": 40,
+                "title": "Code Structure",
+                "importance_score": 0.5,
+                "end_line": 60
+              },
+              "Configuration": {
+                "level": 3,
+                "start_line": 61,
+                "title": "Configuration",
+                "importance_score": 0.5,
+                "end_line": 64
+              },
+              "Environment Variables": {
+                "level": 4,
+                "start_line": 65,
+                "title": "Environment Variables",
+                "importance_score": 0.5,
+                "end_line": 70
+              },
+              "Configuration Files": {
+                "level": 4,
+                "start_line": 71,
+                "title": "Configuration Files",
+                "importance_score": 0.5,
+                "end_line": 75
+              },
+              "Deployment": {
+                "level": 3,
+                "start_line": 76,
+                "title": "Deployment",
+                "importance_score": 0.5,
+                "end_line": 80
+              },
+              "Build the image": {
+                "level": 1,
+                "start_line": 81,
+                "title": "Build the image",
+                "importance_score": 0.5,
+                "end_line": 83
+              },
+              "Run the container": {
+                "level": 1,
+                "start_line": 84,
+                "title": "Run the container",
+                "importance_score": 0.5,
+                "end_line": 111
+              },
+              "Monitoring and Logging": {
+                "level": 3,
+                "start_line": 112,
+                "title": "Monitoring and Logging",
+                "importance_score": 0.5,
+                "end_line": 115
+              },
+              "Metrics": {
+                "level": 4,
+                "start_line": 116,
+                "title": "Metrics",
+                "importance_score": 0.5,
+                "end_line": 121
+              },
+              "Logging": {
+                "level": 4,
+                "start_line": 122,
+                "title": "Logging",
+                "importance_score": 0.5,
+                "end_line": 127
+              },
+              "Security": {
+                "level": 3,
+                "start_line": 128,
+                "title": "Security",
+                "importance_score": 0.7,
+                "end_line": 131
+              },
+              "Authentication": {
+                "level": 4,
+                "start_line": 132,
+                "title": "Authentication",
+                "importance_score": 0.5,
+                "end_line": 137
+              },
+              "Authorization": {
+                "level": 4,
+                "start_line": 138,
+                "title": "Authorization",
+                "importance_score": 0.5,
+                "end_line": 142
+              },
+              "Data Protection": {
+                "level": 4,
+                "start_line": 143,
+                "title": "Data Protection",
+                "importance_score": 0.5,
+                "end_line": 148
+              },
+              "Performance Optimization": {
+                "level": 3,
+                "start_line": 149,
+                "title": "Performance Optimization",
+                "importance_score": 0.5,
+                "end_line": 152
+              },
+              "Caching": {
+                "level": 4,
+                "start_line": 153,
+                "title": "Caching",
+                "importance_score": 0.5,
+                "end_line": 158
+              },
+              "Database Optimization": {
+                "level": 4,
+                "start_line": 159,
+                "title": "Database Optimization",
+                "importance_score": 0.5,
+                "end_line": 164
+              },
+              "Code Optimization": {
+                "level": 4,
+                "start_line": 165,
+                "title": "Code Optimization",
+                "importance_score": 0.5,
+                "end_line": 170
+              },
+              "Troubleshooting": {
+                "level": 3,
+                "start_line": 171,
+                "title": "Troubleshooting",
+                "importance_score": 0.5,
+                "end_line": 174
+              },
+              "Performance Issues": {
+                "level": 4,
+                "start_line": 175,
+                "title": "Performance Issues",
+                "importance_score": 0.5,
+                "end_line": 180
+              },
+              "Connectivity Issues": {
+                "level": 4,
+                "start_line": 181,
+                "title": "Connectivity Issues",
+                "importance_score": 0.5,
+                "end_line": 186
+              },
+              "Data Issues": {
+                "level": 4,
+                "start_line": 187,
+                "title": "Data Issues",
+                "importance_score": 0.5,
+                "end_line": 191
+              }
+            },
+            "code_languages": [
+              "yaml",
+              "bash"
+            ],
+            "code_block_sizes": [
+              344,
+              106,
+              347
+            ],
+            "formatting_density": 0.044789974472035275,
+            "table_rows": 0,
+            "avg_line_length": 21.442708333333332,
+            "avg_word_length": 6.4972972972972975,
+            "max_indent_level": 6,
+            "avg_indent_level": 0.5789473684210527,
+            "reference_count": 0,
+            "unique_references": 0
+          },
+          "timestamp": "2025-08-19T21:09:25.063191"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/faq_document.md",
+            "content_length": 13790,
+            "line_count": 608,
+            "word_count": 2032,
+            "char_count": 13790,
+            "timestamp": "2025-08-19T21:09:38.967196",
+            "header_count": 42,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              2
+            ],
+            "bullet_list_items": 225,
+            "numbered_list_items": 36,
+            "markdown_links": 11,
+            "url_links": 3,
+            "code_blocks": 0,
+            "inline_code": 0,
+            "bold_elements": 124,
+            "italic_elements": 247,
+            "document_type": "documentation",
+            "sections": {
+              "Frequently Asked Questions (FAQ)": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Frequently Asked Questions (FAQ)",
+                "importance_score": 0.5,
+                "end_line": 3
+              },
+              "Table of Contents": {
+                "level": 2,
+                "start_line": 4,
+                "title": "Table of Contents",
+                "importance_score": 0.5,
+                "end_line": 16
+              },
+              "Account and Billing": {
+                "level": 2,
+                "start_line": 17,
+                "title": "Account and Billing",
+                "importance_score": 0.5,
+                "end_line": 18
+              },
+              "Q: How do I create an account?": {
+                "level": 3,
+                "start_line": 19,
+                "title": "Q: How do I create an account?",
+                "importance_score": 0.5,
+                "end_line": 29
+              },
+              "Q: What are the different pricing plans?": {
+                "level": 3,
+                "start_line": 30,
+                "title": "Q: What are the different pricing plans?",
+                "importance_score": 0.55,
+                "end_line": 59
+              },
+              "Q: Can I change my plan at any time?": {
+                "level": 3,
+                "start_line": 60,
+                "title": "Q: Can I change my plan at any time?",
+                "importance_score": 0.5,
+                "end_line": 70
+              },
+              "Q: Do you offer refunds?": {
+                "level": 3,
+                "start_line": 71,
+                "title": "Q: Do you offer refunds?",
+                "importance_score": 0.5,
+                "end_line": 74
+              },
+              "Q: How do I cancel my subscription?": {
+                "level": 3,
+                "start_line": 75,
+                "title": "Q: How do I cancel my subscription?",
+                "importance_score": 0.5,
+                "end_line": 85
+              },
+              "Getting Started": {
+                "level": 2,
+                "start_line": 86,
+                "title": "Getting Started",
+                "importance_score": 0.5,
+                "end_line": 87
+              },
+              "Q: What's the best way to get started?": {
+                "level": 3,
+                "start_line": 88,
+                "title": "Q: What's the best way to get started?",
+                "importance_score": 0.55,
+                "end_line": 97
+              },
+              "Q: Do you have sample data I can use for testing?": {
+                "level": 3,
+                "start_line": 98,
+                "title": "Q: Do you have sample data I can use for testing?",
+                "importance_score": 0.55,
+                "end_line": 109
+              },
+              "Q: How long does it take to set up a project?": {
+                "level": 3,
+                "start_line": 110,
+                "title": "Q: How long does it take to set up a project?",
+                "importance_score": 0.5,
+                "end_line": 118
+              },
+              "Q: Can I import data from Excel files?": {
+                "level": 3,
+                "start_line": 119,
+                "title": "Q: Can I import data from Excel files?",
+                "importance_score": 0.5,
+                "end_line": 132
+              },
+              "Data Management": {
+                "level": 2,
+                "start_line": 133,
+                "title": "Data Management",
+                "importance_score": 0.5,
+                "end_line": 134
+              },
+              "Q: What data sources can I connect to?": {
+                "level": 3,
+                "start_line": 135,
+                "title": "Q: What data sources can I connect to?",
+                "importance_score": 0.55,
+                "end_line": 162
+              },
+              "Q: How much data can I store?": {
+                "level": 3,
+                "start_line": 163,
+                "title": "Q: How much data can I store?",
+                "importance_score": 0.5,
+                "end_line": 173
+              },
+              "Q: Is my data backed up?": {
+                "level": 3,
+                "start_line": 174,
+                "title": "Q: Is my data backed up?",
+                "importance_score": 0.5,
+                "end_line": 188
+              },
+              "Q: Can I export my data?": {
+                "level": 3,
+                "start_line": 189,
+                "title": "Q: Can I export my data?",
+                "importance_score": 0.5,
+                "end_line": 206
+              },
+              "Analytics and Reporting": {
+                "level": 2,
+                "start_line": 207,
+                "title": "Analytics and Reporting",
+                "importance_score": 0.5,
+                "end_line": 208
+              },
+              "Q: What types of analytics can I perform?": {
+                "level": 3,
+                "start_line": 209,
+                "title": "Q: What types of analytics can I perform?",
+                "importance_score": 0.55,
+                "end_line": 236
+              },
+              "Q: Can I create custom visualizations?": {
+                "level": 3,
+                "start_line": 237,
+                "title": "Q: Can I create custom visualizations?",
+                "importance_score": 0.55,
+                "end_line": 258
+              },
+              "Q: How do I share reports with my team?": {
+                "level": 3,
+                "start_line": 259,
+                "title": "Q: How do I share reports with my team?",
+                "importance_score": 0.55,
+                "end_line": 282
+              },
+              "API and Integrations": {
+                "level": 2,
+                "start_line": 283,
+                "title": "API and Integrations",
+                "importance_score": 0.5,
+                "end_line": 284
+              },
+              "Q: Do you provide an API?": {
+                "level": 3,
+                "start_line": 285,
+                "title": "Q: Do you provide an API?",
+                "importance_score": 0.55,
+                "end_line": 306
+              },
+              "Q: What integrations are available?": {
+                "level": 3,
+                "start_line": 307,
+                "title": "Q: What integrations are available?",
+                "importance_score": 0.55,
+                "end_line": 330
+              },
+              "Q: Can I build custom integrations?": {
+                "level": 3,
+                "start_line": 331,
+                "title": "Q: Can I build custom integrations?",
+                "importance_score": 0.55,
+                "end_line": 354
+              },
+              "Security and Privacy": {
+                "level": 2,
+                "start_line": 355,
+                "title": "Security and Privacy",
+                "importance_score": 0.7,
+                "end_line": 356
+              },
+              "Q: How secure is my data?": {
+                "level": 3,
+                "start_line": 357,
+                "title": "Q: How secure is my data?",
+                "importance_score": 0.55,
+                "end_line": 378
+              },
+              "Q: Where is my data stored?": {
+                "level": 3,
+                "start_line": 379,
+                "title": "Q: Where is my data stored?",
+                "importance_score": 0.5,
+                "end_line": 393
+              },
+              "Q: Who has access to my data?": {
+                "level": 3,
+                "start_line": 394,
+                "title": "Q: Who has access to my data?",
+                "importance_score": 0.5,
+                "end_line": 409
+              },
+              "Q: How do you handle data privacy?": {
+                "level": 3,
+                "start_line": 410,
+                "title": "Q: How do you handle data privacy?",
+                "importance_score": 0.5,
+                "end_line": 427
+              },
+              "Performance and Limits": {
+                "level": 2,
+                "start_line": 428,
+                "title": "Performance and Limits",
+                "importance_score": 0.5,
+                "end_line": 429
+              },
+              "Q: What are the usage limits?": {
+                "level": 3,
+                "start_line": 430,
+                "title": "Q: What are the usage limits?",
+                "importance_score": 0.55,
+                "end_line": 451
+              },
+              "Q: How can I improve performance?": {
+                "level": 3,
+                "start_line": 452,
+                "title": "Q: How can I improve performance?",
+                "importance_score": 0.55,
+                "end_line": 473
+              },
+              "Q: What happens if I exceed limits?": {
+                "level": 3,
+                "start_line": 474,
+                "title": "Q: What happens if I exceed limits?",
+                "importance_score": 0.55,
+                "end_line": 491
+              },
+              "Troubleshooting": {
+                "level": 2,
+                "start_line": 492,
+                "title": "Troubleshooting",
+                "importance_score": 0.5,
+                "end_line": 493
+              },
+              "Q: I can't log into my account": {
+                "level": 3,
+                "start_line": 494,
+                "title": "Q: I can't log into my account",
+                "importance_score": 0.55,
+                "end_line": 512
+              },
+              "Q: My data upload is failing": {
+                "level": 3,
+                "start_line": 513,
+                "title": "Q: My data upload is failing",
+                "importance_score": 0.55,
+                "end_line": 531
+              },
+              "Q: My analysis is running slowly": {
+                "level": 3,
+                "start_line": 532,
+                "title": "Q: My analysis is running slowly",
+                "importance_score": 0.55,
+                "end_line": 550
+              },
+              "Q: I'm getting API errors": {
+                "level": 3,
+                "start_line": 551,
+                "title": "Q: I'm getting API errors",
+                "importance_score": 0.55,
+                "end_line": 569
+              },
+              "Q: How do I get support?": {
+                "level": 3,
+                "start_line": 570,
+                "title": "Q: How do I get support?",
+                "importance_score": 0.55,
+                "end_line": 597
+              },
+              "Still Have Questions?": {
+                "level": 2,
+                "start_line": 598,
+                "title": "Still Have Questions?",
+                "importance_score": 0.5,
+                "end_line": 607
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [],
+            "formatting_density": 0.051631617113850614,
+            "table_rows": 0,
+            "avg_line_length": 21.68092105263158,
+            "avg_word_length": 5.646653543307087,
+            "max_indent_level": 3,
+            "avg_indent_level": 0.24324324324324326,
+            "reference_count": 11,
+            "unique_references": 11
+          },
+          "timestamp": "2025-08-19T21:09:38.980406"
         }
       ],
       "api_documentation": [
@@ -5883,6 +7773,1374 @@
             "unique_references": 13
           },
           "timestamp": "2025-08-19T19:06:29.613540"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/api_reference.md",
+            "content_length": 5677,
+            "line_count": 329,
+            "word_count": 688,
+            "char_count": 5677,
+            "timestamp": "2025-08-19T21:09:10.833860",
+            "header_count": 28,
+            "header_levels": [
+              1,
+              2,
+              2,
+              2,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              4,
+              4
+            ],
+            "bullet_list_items": 26,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 5,
+            "code_blocks": 19,
+            "inline_code": 60,
+            "bold_elements": 20,
+            "italic_elements": 39,
+            "document_type": "api_documentation",
+            "sections": {
+              "API Reference": {
+                "level": 1,
+                "start_line": 0,
+                "title": "API Reference",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 5
+              },
+              "Base URL": {
+                "level": 2,
+                "start_line": 6,
+                "title": "Base URL",
+                "importance_score": 0.5,
+                "end_line": 11
+              },
+              "Authentication": {
+                "level": 2,
+                "start_line": 12,
+                "title": "Authentication",
+                "importance_score": 0.5,
+                "end_line": 15
+              },
+              "API Key Authentication": {
+                "level": 3,
+                "start_line": 16,
+                "title": "API Key Authentication",
+                "importance_score": 0.5,
+                "end_line": 23
+              },
+              "JWT Authentication": {
+                "level": 3,
+                "start_line": 24,
+                "title": "JWT Authentication",
+                "importance_score": 0.5,
+                "end_line": 31
+              },
+              "Endpoints": {
+                "level": 2,
+                "start_line": 32,
+                "title": "Endpoints",
+                "importance_score": 0.5,
+                "end_line": 33
+              },
+              "Users": {
+                "level": 3,
+                "start_line": 34,
+                "title": "Users",
+                "importance_score": 0.6,
+                "end_line": 35
+              },
+              "GET /users": {
+                "level": 4,
+                "start_line": 36,
+                "title": "GET /users",
+                "importance_score": 0.55,
+                "end_line": 62
+              },
+              "POST /users": {
+                "level": 4,
+                "start_line": 63,
+                "title": "POST /users",
+                "importance_score": 0.5,
+                "end_line": 87
+              },
+              "GET /users/{id}": {
+                "level": 4,
+                "start_line": 88,
+                "title": "GET /users/{id}",
+                "importance_score": 0.5,
+                "end_line": 112
+              },
+              "PUT /users/{id}": {
+                "level": 4,
+                "start_line": 113,
+                "title": "PUT /users/{id}",
+                "importance_score": 0.5,
+                "end_line": 131
+              },
+              "DELETE /users/{id}": {
+                "level": 4,
+                "start_line": 132,
+                "title": "DELETE /users/{id}",
+                "importance_score": 0.5,
+                "end_line": 145
+              },
+              "Data Records": {
+                "level": 3,
+                "start_line": 146,
+                "title": "Data Records",
+                "importance_score": 0.5,
+                "end_line": 147
+              },
+              "GET /data": {
+                "level": 4,
+                "start_line": 148,
+                "title": "GET /data",
+                "importance_score": 0.55,
+                "end_line": 180
+              },
+              "POST /data": {
+                "level": 4,
+                "start_line": 181,
+                "title": "POST /data",
+                "importance_score": 0.5,
+                "end_line": 197
+              },
+              "Notifications": {
+                "level": 3,
+                "start_line": 198,
+                "title": "Notifications",
+                "importance_score": 0.55,
+                "end_line": 199
+              },
+              "GET /notifications": {
+                "level": 4,
+                "start_line": 200,
+                "title": "GET /notifications",
+                "importance_score": 0.5,
+                "end_line": 224
+              },
+              "POST /notifications": {
+                "level": 4,
+                "start_line": 225,
+                "title": "POST /notifications",
+                "importance_score": 0.5,
+                "end_line": 238
+              },
+              "PUT /notifications/{id}/read": {
+                "level": 4,
+                "start_line": 239,
+                "title": "PUT /notifications/{id}/read",
+                "importance_score": 0.5,
+                "end_line": 245
+              },
+              "Error Handling": {
+                "level": 2,
+                "start_line": 246,
+                "title": "Error Handling",
+                "importance_score": 0.55,
+                "end_line": 273
+              },
+              "Rate Limiting": {
+                "level": 2,
+                "start_line": 274,
+                "title": "Rate Limiting",
+                "importance_score": 0.5,
+                "end_line": 289
+              },
+              "SDK and Libraries": {
+                "level": 2,
+                "start_line": 290,
+                "title": "SDK and Libraries",
+                "importance_score": 0.5,
+                "end_line": 293
+              },
+              "Python": {
+                "level": 3,
+                "start_line": 294,
+                "title": "Python",
+                "importance_score": 0.5,
+                "end_line": 301
+              },
+              "JavaScript": {
+                "level": 3,
+                "start_line": 302,
+                "title": "JavaScript",
+                "importance_score": 0.5,
+                "end_line": 309
+              },
+              "cURL Examples": {
+                "level": 3,
+                "start_line": 310,
+                "title": "cURL Examples",
+                "importance_score": 0.5,
+                "end_line": 311
+              },
+              "Get users": {
+                "level": 4,
+                "start_line": 312,
+                "title": "Get users",
+                "importance_score": 0.5,
+                "end_line": 317
+              },
+              "Create user": {
+                "level": 4,
+                "start_line": 318,
+                "title": "Create user",
+                "importance_score": 0.5,
+                "end_line": 328
+              }
+            },
+            "code_languages": [
+              "javascript",
+              "json",
+              "python",
+              "bash"
+            ],
+            "code_block_sizes": [
+              26,
+              34,
+              33,
+              249,
+              141,
+              116,
+              329,
+              149,
+              44,
+              313,
+              140,
+              234,
+              105,
+              203,
+              80,
+              109,
+              149,
+              106,
+              236
+            ],
+            "formatting_density": 0.07503963360930069,
+            "table_rows": 0,
+            "avg_line_length": 16.25531914893617,
+            "avg_word_length": 6.684593023255814,
+            "max_indent_level": 8,
+            "avg_indent_level": 1.2373540856031129,
+            "reference_count": 3,
+            "unique_references": 3
+          },
+          "timestamp": "2025-08-19T21:09:10.845142"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/tutorial_content.md",
+            "content_length": 13738,
+            "line_count": 504,
+            "word_count": 1727,
+            "char_count": 13738,
+            "timestamp": "2025-08-19T21:09:19.682370",
+            "header_count": 39,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              2,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              2,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4
+            ],
+            "bullet_list_items": 4,
+            "numbered_list_items": 60,
+            "markdown_links": 8,
+            "url_links": 3,
+            "code_blocks": 17,
+            "inline_code": 33,
+            "bold_elements": 104,
+            "italic_elements": 208,
+            "document_type": "api_documentation",
+            "sections": {
+              "Getting Started Tutorial": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Getting Started Tutorial",
+                "importance_score": 0.5,
+                "end_line": 3
+              },
+              "Table of Contents": {
+                "level": 2,
+                "start_line": 4,
+                "title": "Table of Contents",
+                "importance_score": 0.5,
+                "end_line": 13
+              },
+              "Account Setup": {
+                "level": 2,
+                "start_line": 14,
+                "title": "Account Setup",
+                "importance_score": 0.5,
+                "end_line": 15
+              },
+              "Creating Your Account": {
+                "level": 3,
+                "start_line": 16,
+                "title": "Creating Your Account",
+                "importance_score": 0.55,
+                "end_line": 34
+              },
+              "Setting Up Your Profile": {
+                "level": 3,
+                "start_line": 35,
+                "title": "Setting Up Your Profile",
+                "importance_score": 0.55,
+                "end_line": 53
+              },
+              "Basic Configuration": {
+                "level": 2,
+                "start_line": 54,
+                "title": "Basic Configuration",
+                "importance_score": 0.5,
+                "end_line": 55
+              },
+              "Initial Configuration": {
+                "level": 3,
+                "start_line": 56,
+                "title": "Initial Configuration",
+                "importance_score": 0.5,
+                "end_line": 59
+              },
+              "Workspace Setup": {
+                "level": 4,
+                "start_line": 60,
+                "title": "Workspace Setup",
+                "importance_score": 0.55,
+                "end_line": 79
+              },
+              "Integration Setup": {
+                "level": 4,
+                "start_line": 80,
+                "title": "Integration Setup",
+                "importance_score": 0.55,
+                "end_line": 99
+              },
+              "Your First Project": {
+                "level": 2,
+                "start_line": 100,
+                "title": "Your First Project",
+                "importance_score": 0.5,
+                "end_line": 103
+              },
+              "Project Creation": {
+                "level": 3,
+                "start_line": 104,
+                "title": "Project Creation",
+                "importance_score": 0.55,
+                "end_line": 121
+              },
+              "Project Structure": {
+                "level": 3,
+                "start_line": 122,
+                "title": "Project Structure",
+                "importance_score": 0.55,
+                "end_line": 135
+              },
+              "Adding Data Sources": {
+                "level": 3,
+                "start_line": 136,
+                "title": "Adding Data Sources",
+                "importance_score": 0.6,
+                "end_line": 163
+              },
+              "Setting Up Processing": {
+                "level": 3,
+                "start_line": 164,
+                "title": "Setting Up Processing",
+                "importance_score": 0.55,
+                "end_line": 178
+              },
+              "# Basic processing workflow": {
+                "level": 1,
+                "start_line": 179,
+                "title": "# Basic processing workflow",
+                "importance_score": 0.55,
+                "end_line": 207
+              },
+              "Working with Data": {
+                "level": 2,
+                "start_line": 208,
+                "title": "Working with Data",
+                "importance_score": 0.5,
+                "end_line": 209
+              },
+              "Data Management": {
+                "level": 3,
+                "start_line": 210,
+                "title": "Data Management",
+                "importance_score": 0.5,
+                "end_line": 211
+              },
+              "Data Import Strategies": {
+                "level": 4,
+                "start_line": 212,
+                "title": "Data Import Strategies",
+                "importance_score": 0.5,
+                "end_line": 228
+              },
+              "Data Quality Management": {
+                "level": 4,
+                "start_line": 229,
+                "title": "Data Quality Management",
+                "importance_score": 0.5,
+                "end_line": 232
+              },
+              "# Example validation configuration": {
+                "level": 1,
+                "start_line": 233,
+                "title": "# Example validation configuration",
+                "importance_score": 0.5,
+                "end_line": 251
+              },
+              "Analytics and Visualization": {
+                "level": 3,
+                "start_line": 252,
+                "title": "Analytics and Visualization",
+                "importance_score": 0.5,
+                "end_line": 253
+              },
+              "Creating Your First Analysis": {
+                "level": 4,
+                "start_line": 254,
+                "title": "Creating Your First Analysis",
+                "importance_score": 0.55,
+                "end_line": 275
+              },
+              "Advanced Analytics Features": {
+                "level": 4,
+                "start_line": 276,
+                "title": "Advanced Analytics Features",
+                "importance_score": 0.5,
+                "end_line": 289
+              },
+              "Advanced Features": {
+                "level": 2,
+                "start_line": 290,
+                "title": "Advanced Features",
+                "importance_score": 0.5,
+                "end_line": 291
+              },
+              "Automation": {
+                "level": 3,
+                "start_line": 292,
+                "title": "Automation",
+                "importance_score": 0.55,
+                "end_line": 293
+              },
+              "Workflow Automation": {
+                "level": 4,
+                "start_line": 294,
+                "title": "Workflow Automation",
+                "importance_score": 0.5,
+                "end_line": 297
+              },
+              "# Automation configuration": {
+                "level": 1,
+                "start_line": 298,
+                "title": "# Automation configuration",
+                "importance_score": 0.5,
+                "end_line": 317
+              },
+              "API Integration": {
+                "level": 4,
+                "start_line": 318,
+                "title": "API Integration",
+                "importance_score": 0.5,
+                "end_line": 321
+              },
+              "# Python example for API interaction": {
+                "level": 1,
+                "start_line": 322,
+                "title": "# Python example for API interaction",
+                "importance_score": 0.5,
+                "end_line": 324
+              },
+              "# Authentication": {
+                "level": 1,
+                "start_line": 325,
+                "title": "# Authentication",
+                "importance_score": 0.5,
+                "end_line": 330
+              },
+              "# Get project data": {
+                "level": 1,
+                "start_line": 331,
+                "title": "# Get project data",
+                "importance_score": 0.5,
+                "end_line": 352
+              },
+              "Collaboration Features": {
+                "level": 3,
+                "start_line": 353,
+                "title": "Collaboration Features",
+                "importance_score": 0.5,
+                "end_line": 354
+              },
+              "Team Collaboration": {
+                "level": 4,
+                "start_line": 355,
+                "title": "Team Collaboration",
+                "importance_score": 0.5,
+                "end_line": 363
+              },
+              "# Permission structure example": {
+                "level": 1,
+                "start_line": 364,
+                "title": "# Permission structure example",
+                "importance_score": 0.5,
+                "end_line": 378
+              },
+              "Version Control": {
+                "level": 4,
+                "start_line": 379,
+                "title": "Version Control",
+                "importance_score": 0.5,
+                "end_line": 390
+              },
+              "Best Practices": {
+                "level": 2,
+                "start_line": 391,
+                "title": "Best Practices",
+                "importance_score": 0.6,
+                "end_line": 392
+              },
+              "Data Management Best Practices": {
+                "level": 3,
+                "start_line": 393,
+                "title": "Data Management Best Practices",
+                "importance_score": 0.55,
+                "end_line": 412
+              },
+              "Workflow Best Practices": {
+                "level": 3,
+                "start_line": 413,
+                "title": "Workflow Best Practices",
+                "importance_score": 0.55,
+                "end_line": 429
+              },
+              "Troubleshooting": {
+                "level": 2,
+                "start_line": 430,
+                "title": "Troubleshooting",
+                "importance_score": 0.5,
+                "end_line": 431
+              },
+              "Common Issues and Solutions": {
+                "level": 3,
+                "start_line": 432,
+                "title": "Common Issues and Solutions",
+                "importance_score": 0.5,
+                "end_line": 433
+              },
+              "Data Import Issues": {
+                "level": 4,
+                "start_line": 434,
+                "title": "Data Import Issues",
+                "importance_score": 0.55,
+                "end_line": 450
+              },
+              "Processing Issues": {
+                "level": 4,
+                "start_line": 451,
+                "title": "Processing Issues",
+                "importance_score": 0.55,
+                "end_line": 462
+              },
+              "Access and Permission Issues": {
+                "level": 4,
+                "start_line": 463,
+                "title": "Access and Permission Issues",
+                "importance_score": 0.5,
+                "end_line": 474
+              },
+              "Getting Help": {
+                "level": 3,
+                "start_line": 475,
+                "title": "Getting Help",
+                "importance_score": 0.5,
+                "end_line": 476
+              },
+              "Support Resources": {
+                "level": 4,
+                "start_line": 477,
+                "title": "Support Resources",
+                "importance_score": 0.55,
+                "end_line": 493
+              },
+              "Contact Information": {
+                "level": 4,
+                "start_line": 494,
+                "title": "Contact Information",
+                "importance_score": 0.55,
+                "end_line": 503
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [
+              419
+            ],
+            "formatting_density": 0.055757752220119375,
+            "table_rows": 6,
+            "avg_line_length": 26.25793650793651,
+            "avg_word_length": 6.176027793862189,
+            "max_indent_level": 13,
+            "avg_indent_level": 2.8050632911392404,
+            "reference_count": 13,
+            "unique_references": 13
+          },
+          "timestamp": "2025-08-19T21:09:19.700480"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/api_reference.md",
+            "content_length": 5677,
+            "line_count": 329,
+            "word_count": 688,
+            "char_count": 5677,
+            "timestamp": "2025-08-19T21:09:26.553567",
+            "header_count": 28,
+            "header_levels": [
+              1,
+              2,
+              2,
+              2,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              4,
+              4
+            ],
+            "bullet_list_items": 26,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 5,
+            "code_blocks": 19,
+            "inline_code": 60,
+            "bold_elements": 20,
+            "italic_elements": 39,
+            "document_type": "api_documentation",
+            "sections": {
+              "API Reference": {
+                "level": 1,
+                "start_line": 0,
+                "title": "API Reference",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 5
+              },
+              "Base URL": {
+                "level": 2,
+                "start_line": 6,
+                "title": "Base URL",
+                "importance_score": 0.5,
+                "end_line": 11
+              },
+              "Authentication": {
+                "level": 2,
+                "start_line": 12,
+                "title": "Authentication",
+                "importance_score": 0.5,
+                "end_line": 15
+              },
+              "API Key Authentication": {
+                "level": 3,
+                "start_line": 16,
+                "title": "API Key Authentication",
+                "importance_score": 0.5,
+                "end_line": 23
+              },
+              "JWT Authentication": {
+                "level": 3,
+                "start_line": 24,
+                "title": "JWT Authentication",
+                "importance_score": 0.5,
+                "end_line": 31
+              },
+              "Endpoints": {
+                "level": 2,
+                "start_line": 32,
+                "title": "Endpoints",
+                "importance_score": 0.5,
+                "end_line": 33
+              },
+              "Users": {
+                "level": 3,
+                "start_line": 34,
+                "title": "Users",
+                "importance_score": 0.6,
+                "end_line": 35
+              },
+              "GET /users": {
+                "level": 4,
+                "start_line": 36,
+                "title": "GET /users",
+                "importance_score": 0.55,
+                "end_line": 62
+              },
+              "POST /users": {
+                "level": 4,
+                "start_line": 63,
+                "title": "POST /users",
+                "importance_score": 0.5,
+                "end_line": 87
+              },
+              "GET /users/{id}": {
+                "level": 4,
+                "start_line": 88,
+                "title": "GET /users/{id}",
+                "importance_score": 0.5,
+                "end_line": 112
+              },
+              "PUT /users/{id}": {
+                "level": 4,
+                "start_line": 113,
+                "title": "PUT /users/{id}",
+                "importance_score": 0.5,
+                "end_line": 131
+              },
+              "DELETE /users/{id}": {
+                "level": 4,
+                "start_line": 132,
+                "title": "DELETE /users/{id}",
+                "importance_score": 0.5,
+                "end_line": 145
+              },
+              "Data Records": {
+                "level": 3,
+                "start_line": 146,
+                "title": "Data Records",
+                "importance_score": 0.5,
+                "end_line": 147
+              },
+              "GET /data": {
+                "level": 4,
+                "start_line": 148,
+                "title": "GET /data",
+                "importance_score": 0.55,
+                "end_line": 180
+              },
+              "POST /data": {
+                "level": 4,
+                "start_line": 181,
+                "title": "POST /data",
+                "importance_score": 0.5,
+                "end_line": 197
+              },
+              "Notifications": {
+                "level": 3,
+                "start_line": 198,
+                "title": "Notifications",
+                "importance_score": 0.55,
+                "end_line": 199
+              },
+              "GET /notifications": {
+                "level": 4,
+                "start_line": 200,
+                "title": "GET /notifications",
+                "importance_score": 0.5,
+                "end_line": 224
+              },
+              "POST /notifications": {
+                "level": 4,
+                "start_line": 225,
+                "title": "POST /notifications",
+                "importance_score": 0.5,
+                "end_line": 238
+              },
+              "PUT /notifications/{id}/read": {
+                "level": 4,
+                "start_line": 239,
+                "title": "PUT /notifications/{id}/read",
+                "importance_score": 0.5,
+                "end_line": 245
+              },
+              "Error Handling": {
+                "level": 2,
+                "start_line": 246,
+                "title": "Error Handling",
+                "importance_score": 0.55,
+                "end_line": 273
+              },
+              "Rate Limiting": {
+                "level": 2,
+                "start_line": 274,
+                "title": "Rate Limiting",
+                "importance_score": 0.5,
+                "end_line": 289
+              },
+              "SDK and Libraries": {
+                "level": 2,
+                "start_line": 290,
+                "title": "SDK and Libraries",
+                "importance_score": 0.5,
+                "end_line": 293
+              },
+              "Python": {
+                "level": 3,
+                "start_line": 294,
+                "title": "Python",
+                "importance_score": 0.5,
+                "end_line": 301
+              },
+              "JavaScript": {
+                "level": 3,
+                "start_line": 302,
+                "title": "JavaScript",
+                "importance_score": 0.5,
+                "end_line": 309
+              },
+              "cURL Examples": {
+                "level": 3,
+                "start_line": 310,
+                "title": "cURL Examples",
+                "importance_score": 0.5,
+                "end_line": 311
+              },
+              "Get users": {
+                "level": 4,
+                "start_line": 312,
+                "title": "Get users",
+                "importance_score": 0.5,
+                "end_line": 317
+              },
+              "Create user": {
+                "level": 4,
+                "start_line": 318,
+                "title": "Create user",
+                "importance_score": 0.5,
+                "end_line": 328
+              }
+            },
+            "code_languages": [
+              "javascript",
+              "json",
+              "python",
+              "bash"
+            ],
+            "code_block_sizes": [
+              26,
+              34,
+              33,
+              249,
+              141,
+              116,
+              329,
+              149,
+              44,
+              313,
+              140,
+              234,
+              105,
+              203,
+              80,
+              109,
+              149,
+              106,
+              236
+            ],
+            "formatting_density": 0.07503963360930069,
+            "table_rows": 0,
+            "avg_line_length": 16.25531914893617,
+            "avg_word_length": 6.684593023255814,
+            "max_indent_level": 8,
+            "avg_indent_level": 1.2373540856031129,
+            "reference_count": 3,
+            "unique_references": 3
+          },
+          "timestamp": "2025-08-19T21:09:26.564731"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/tutorial_content.md",
+            "content_length": 13738,
+            "line_count": 504,
+            "word_count": 1727,
+            "char_count": 13738,
+            "timestamp": "2025-08-19T21:09:35.410157",
+            "header_count": 39,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              2,
+              3,
+              3,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              2,
+              3,
+              4,
+              4,
+              3,
+              4,
+              4,
+              2,
+              3,
+              3,
+              2,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4
+            ],
+            "bullet_list_items": 4,
+            "numbered_list_items": 60,
+            "markdown_links": 8,
+            "url_links": 3,
+            "code_blocks": 17,
+            "inline_code": 33,
+            "bold_elements": 104,
+            "italic_elements": 208,
+            "document_type": "api_documentation",
+            "sections": {
+              "Getting Started Tutorial": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Getting Started Tutorial",
+                "importance_score": 0.5,
+                "end_line": 3
+              },
+              "Table of Contents": {
+                "level": 2,
+                "start_line": 4,
+                "title": "Table of Contents",
+                "importance_score": 0.5,
+                "end_line": 13
+              },
+              "Account Setup": {
+                "level": 2,
+                "start_line": 14,
+                "title": "Account Setup",
+                "importance_score": 0.5,
+                "end_line": 15
+              },
+              "Creating Your Account": {
+                "level": 3,
+                "start_line": 16,
+                "title": "Creating Your Account",
+                "importance_score": 0.55,
+                "end_line": 34
+              },
+              "Setting Up Your Profile": {
+                "level": 3,
+                "start_line": 35,
+                "title": "Setting Up Your Profile",
+                "importance_score": 0.55,
+                "end_line": 53
+              },
+              "Basic Configuration": {
+                "level": 2,
+                "start_line": 54,
+                "title": "Basic Configuration",
+                "importance_score": 0.5,
+                "end_line": 55
+              },
+              "Initial Configuration": {
+                "level": 3,
+                "start_line": 56,
+                "title": "Initial Configuration",
+                "importance_score": 0.5,
+                "end_line": 59
+              },
+              "Workspace Setup": {
+                "level": 4,
+                "start_line": 60,
+                "title": "Workspace Setup",
+                "importance_score": 0.55,
+                "end_line": 79
+              },
+              "Integration Setup": {
+                "level": 4,
+                "start_line": 80,
+                "title": "Integration Setup",
+                "importance_score": 0.55,
+                "end_line": 99
+              },
+              "Your First Project": {
+                "level": 2,
+                "start_line": 100,
+                "title": "Your First Project",
+                "importance_score": 0.5,
+                "end_line": 103
+              },
+              "Project Creation": {
+                "level": 3,
+                "start_line": 104,
+                "title": "Project Creation",
+                "importance_score": 0.55,
+                "end_line": 121
+              },
+              "Project Structure": {
+                "level": 3,
+                "start_line": 122,
+                "title": "Project Structure",
+                "importance_score": 0.55,
+                "end_line": 135
+              },
+              "Adding Data Sources": {
+                "level": 3,
+                "start_line": 136,
+                "title": "Adding Data Sources",
+                "importance_score": 0.6,
+                "end_line": 163
+              },
+              "Setting Up Processing": {
+                "level": 3,
+                "start_line": 164,
+                "title": "Setting Up Processing",
+                "importance_score": 0.55,
+                "end_line": 178
+              },
+              "# Basic processing workflow": {
+                "level": 1,
+                "start_line": 179,
+                "title": "# Basic processing workflow",
+                "importance_score": 0.55,
+                "end_line": 207
+              },
+              "Working with Data": {
+                "level": 2,
+                "start_line": 208,
+                "title": "Working with Data",
+                "importance_score": 0.5,
+                "end_line": 209
+              },
+              "Data Management": {
+                "level": 3,
+                "start_line": 210,
+                "title": "Data Management",
+                "importance_score": 0.5,
+                "end_line": 211
+              },
+              "Data Import Strategies": {
+                "level": 4,
+                "start_line": 212,
+                "title": "Data Import Strategies",
+                "importance_score": 0.5,
+                "end_line": 228
+              },
+              "Data Quality Management": {
+                "level": 4,
+                "start_line": 229,
+                "title": "Data Quality Management",
+                "importance_score": 0.5,
+                "end_line": 232
+              },
+              "# Example validation configuration": {
+                "level": 1,
+                "start_line": 233,
+                "title": "# Example validation configuration",
+                "importance_score": 0.5,
+                "end_line": 251
+              },
+              "Analytics and Visualization": {
+                "level": 3,
+                "start_line": 252,
+                "title": "Analytics and Visualization",
+                "importance_score": 0.5,
+                "end_line": 253
+              },
+              "Creating Your First Analysis": {
+                "level": 4,
+                "start_line": 254,
+                "title": "Creating Your First Analysis",
+                "importance_score": 0.55,
+                "end_line": 275
+              },
+              "Advanced Analytics Features": {
+                "level": 4,
+                "start_line": 276,
+                "title": "Advanced Analytics Features",
+                "importance_score": 0.5,
+                "end_line": 289
+              },
+              "Advanced Features": {
+                "level": 2,
+                "start_line": 290,
+                "title": "Advanced Features",
+                "importance_score": 0.5,
+                "end_line": 291
+              },
+              "Automation": {
+                "level": 3,
+                "start_line": 292,
+                "title": "Automation",
+                "importance_score": 0.55,
+                "end_line": 293
+              },
+              "Workflow Automation": {
+                "level": 4,
+                "start_line": 294,
+                "title": "Workflow Automation",
+                "importance_score": 0.5,
+                "end_line": 297
+              },
+              "# Automation configuration": {
+                "level": 1,
+                "start_line": 298,
+                "title": "# Automation configuration",
+                "importance_score": 0.5,
+                "end_line": 317
+              },
+              "API Integration": {
+                "level": 4,
+                "start_line": 318,
+                "title": "API Integration",
+                "importance_score": 0.5,
+                "end_line": 321
+              },
+              "# Python example for API interaction": {
+                "level": 1,
+                "start_line": 322,
+                "title": "# Python example for API interaction",
+                "importance_score": 0.5,
+                "end_line": 324
+              },
+              "# Authentication": {
+                "level": 1,
+                "start_line": 325,
+                "title": "# Authentication",
+                "importance_score": 0.5,
+                "end_line": 330
+              },
+              "# Get project data": {
+                "level": 1,
+                "start_line": 331,
+                "title": "# Get project data",
+                "importance_score": 0.5,
+                "end_line": 352
+              },
+              "Collaboration Features": {
+                "level": 3,
+                "start_line": 353,
+                "title": "Collaboration Features",
+                "importance_score": 0.5,
+                "end_line": 354
+              },
+              "Team Collaboration": {
+                "level": 4,
+                "start_line": 355,
+                "title": "Team Collaboration",
+                "importance_score": 0.5,
+                "end_line": 363
+              },
+              "# Permission structure example": {
+                "level": 1,
+                "start_line": 364,
+                "title": "# Permission structure example",
+                "importance_score": 0.5,
+                "end_line": 378
+              },
+              "Version Control": {
+                "level": 4,
+                "start_line": 379,
+                "title": "Version Control",
+                "importance_score": 0.5,
+                "end_line": 390
+              },
+              "Best Practices": {
+                "level": 2,
+                "start_line": 391,
+                "title": "Best Practices",
+                "importance_score": 0.6,
+                "end_line": 392
+              },
+              "Data Management Best Practices": {
+                "level": 3,
+                "start_line": 393,
+                "title": "Data Management Best Practices",
+                "importance_score": 0.55,
+                "end_line": 412
+              },
+              "Workflow Best Practices": {
+                "level": 3,
+                "start_line": 413,
+                "title": "Workflow Best Practices",
+                "importance_score": 0.55,
+                "end_line": 429
+              },
+              "Troubleshooting": {
+                "level": 2,
+                "start_line": 430,
+                "title": "Troubleshooting",
+                "importance_score": 0.5,
+                "end_line": 431
+              },
+              "Common Issues and Solutions": {
+                "level": 3,
+                "start_line": 432,
+                "title": "Common Issues and Solutions",
+                "importance_score": 0.5,
+                "end_line": 433
+              },
+              "Data Import Issues": {
+                "level": 4,
+                "start_line": 434,
+                "title": "Data Import Issues",
+                "importance_score": 0.55,
+                "end_line": 450
+              },
+              "Processing Issues": {
+                "level": 4,
+                "start_line": 451,
+                "title": "Processing Issues",
+                "importance_score": 0.55,
+                "end_line": 462
+              },
+              "Access and Permission Issues": {
+                "level": 4,
+                "start_line": 463,
+                "title": "Access and Permission Issues",
+                "importance_score": 0.5,
+                "end_line": 474
+              },
+              "Getting Help": {
+                "level": 3,
+                "start_line": 475,
+                "title": "Getting Help",
+                "importance_score": 0.5,
+                "end_line": 476
+              },
+              "Support Resources": {
+                "level": 4,
+                "start_line": 477,
+                "title": "Support Resources",
+                "importance_score": 0.55,
+                "end_line": 493
+              },
+              "Contact Information": {
+                "level": 4,
+                "start_line": 494,
+                "title": "Contact Information",
+                "importance_score": 0.55,
+                "end_line": 503
+              }
+            },
+            "code_languages": [],
+            "code_block_sizes": [
+              419
+            ],
+            "formatting_density": 0.055757752220119375,
+            "table_rows": 6,
+            "avg_line_length": 26.25793650793651,
+            "avg_word_length": 6.176027793862189,
+            "max_indent_level": 13,
+            "avg_indent_level": 2.8050632911392404,
+            "reference_count": 13,
+            "unique_references": 13
+          },
+          "timestamp": "2025-08-19T21:09:35.423568"
         }
       ],
       "configuration": [
@@ -7313,6 +10571,958 @@
             "unique_references": 7
           },
           "timestamp": "2025-08-19T19:06:25.594618"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/configuration_guide.md",
+            "content_length": 8415,
+            "line_count": 407,
+            "word_count": 864,
+            "char_count": 8415,
+            "timestamp": "2025-08-19T21:09:15.558108",
+            "header_count": 56,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              2,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              2,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              2,
+              3,
+              4,
+              1,
+              1,
+              1,
+              4,
+              2,
+              3,
+              3,
+              4,
+              4,
+              4,
+              2,
+              3,
+              3,
+              3
+            ],
+            "bullet_list_items": 25,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 4,
+            "code_blocks": 7,
+            "inline_code": 36,
+            "bold_elements": 22,
+            "italic_elements": 44,
+            "document_type": "configuration",
+            "sections": {
+              "Configuration Guide": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Configuration Guide",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 5
+              },
+              "Environment Variables": {
+                "level": 4,
+                "start_line": 316,
+                "title": "Environment Variables",
+                "importance_score": 0.5,
+                "end_line": 317
+              },
+              "Required Variables": {
+                "level": 3,
+                "start_line": 8,
+                "title": "Required Variables",
+                "importance_score": 0.7,
+                "end_line": 11
+              },
+              "DATABASE_URL": {
+                "level": 4,
+                "start_line": 12,
+                "title": "DATABASE_URL",
+                "importance_score": 0.5,
+                "end_line": 17
+              },
+              "API_KEY": {
+                "level": 4,
+                "start_line": 18,
+                "title": "API_KEY",
+                "importance_score": 0.5,
+                "end_line": 23
+              },
+              "SECRET_KEY": {
+                "level": 4,
+                "start_line": 24,
+                "title": "SECRET_KEY",
+                "importance_score": 0.5,
+                "end_line": 29
+              },
+              "Optional Variables": {
+                "level": 3,
+                "start_line": 30,
+                "title": "Optional Variables",
+                "importance_score": 0.5,
+                "end_line": 31
+              },
+              "LOG_LEVEL": {
+                "level": 4,
+                "start_line": 32,
+                "title": "LOG_LEVEL",
+                "importance_score": 0.5,
+                "end_line": 38
+              },
+              "PORT": {
+                "level": 4,
+                "start_line": 39,
+                "title": "PORT",
+                "importance_score": 0.5,
+                "end_line": 45
+              },
+              "REDIS_URL": {
+                "level": 4,
+                "start_line": 46,
+                "title": "REDIS_URL",
+                "importance_score": 0.5,
+                "end_line": 52
+              },
+              "SMTP_HOST": {
+                "level": 4,
+                "start_line": 53,
+                "title": "SMTP_HOST",
+                "importance_score": 0.5,
+                "end_line": 58
+              },
+              "SMTP_PORT": {
+                "level": 4,
+                "start_line": 59,
+                "title": "SMTP_PORT",
+                "importance_score": 0.5,
+                "end_line": 65
+              },
+              "SMTP_USERNAME": {
+                "level": 4,
+                "start_line": 66,
+                "title": "SMTP_USERNAME",
+                "importance_score": 0.5,
+                "end_line": 70
+              },
+              "SMTP_PASSWORD": {
+                "level": 4,
+                "start_line": 71,
+                "title": "SMTP_PASSWORD",
+                "importance_score": 0.5,
+                "end_line": 75
+              },
+              "Configuration Files": {
+                "level": 2,
+                "start_line": 76,
+                "title": "Configuration Files",
+                "importance_score": 0.5,
+                "end_line": 77
+              },
+              "app.yaml": {
+                "level": 3,
+                "start_line": 78,
+                "title": "app.yaml",
+                "importance_score": 0.5,
+                "end_line": 82
+              },
+              "Application settings": {
+                "level": 1,
+                "start_line": 83,
+                "title": "Application settings",
+                "importance_score": 0.5,
+                "end_line": 89
+              },
+              "Server settings": {
+                "level": 1,
+                "start_line": 90,
+                "title": "Server settings",
+                "importance_score": 0.5,
+                "end_line": 96
+              },
+              "Database settings": {
+                "level": 1,
+                "start_line": 97,
+                "title": "Database settings",
+                "importance_score": 0.5,
+                "end_line": 104
+              },
+              "Cache settings": {
+                "level": 1,
+                "start_line": 105,
+                "title": "Cache settings",
+                "importance_score": 0.5,
+                "end_line": 110
+              },
+              "Security settings": {
+                "level": 1,
+                "start_line": 111,
+                "title": "Security settings",
+                "importance_score": 0.7,
+                "end_line": 119
+              },
+              "database.yaml": {
+                "level": 3,
+                "start_line": 120,
+                "title": "database.yaml",
+                "importance_score": 0.5,
+                "end_line": 124
+              },
+              "Database connection settings": {
+                "level": 1,
+                "start_line": 125,
+                "title": "Database connection settings",
+                "importance_score": 0.5,
+                "end_line": 134
+              },
+              "Connection pool settings": {
+                "level": 1,
+                "start_line": 135,
+                "title": "Connection pool settings",
+                "importance_score": 0.5,
+                "end_line": 142
+              },
+              "Migration settings": {
+                "level": 1,
+                "start_line": 143,
+                "title": "Migration settings",
+                "importance_score": 0.5,
+                "end_line": 148
+              },
+              "Backup settings": {
+                "level": 1,
+                "start_line": 149,
+                "title": "Backup settings",
+                "importance_score": 0.5,
+                "end_line": 156
+              },
+              "logging.yaml": {
+                "level": 3,
+                "start_line": 157,
+                "title": "logging.yaml",
+                "importance_score": 0.5,
+                "end_line": 161
+              },
+              "Logging configuration": {
+                "level": 1,
+                "start_line": 162,
+                "title": "Logging configuration",
+                "importance_score": 0.55,
+                "end_line": 218
+              },
+              "Docker Configuration": {
+                "level": 2,
+                "start_line": 219,
+                "title": "Docker Configuration",
+                "importance_score": 0.5,
+                "end_line": 220
+              },
+              "Dockerfile": {
+                "level": 3,
+                "start_line": 221,
+                "title": "Dockerfile",
+                "importance_score": 0.5,
+                "end_line": 227
+              },
+              "Install system dependencies": {
+                "level": 1,
+                "start_line": 228,
+                "title": "Install system dependencies",
+                "importance_score": 0.5,
+                "end_line": 233
+              },
+              "Copy requirements and install Python dependencies": {
+                "level": 1,
+                "start_line": 234,
+                "title": "Copy requirements and install Python dependencies",
+                "importance_score": 0.5,
+                "end_line": 237
+              },
+              "Copy application code": {
+                "level": 1,
+                "start_line": 238,
+                "title": "Copy application code",
+                "importance_score": 0.5,
+                "end_line": 240
+              },
+              "Create non-root user": {
+                "level": 1,
+                "start_line": 241,
+                "title": "Create non-root user",
+                "importance_score": 0.5,
+                "end_line": 245
+              },
+              "Expose port": {
+                "level": 1,
+                "start_line": 246,
+                "title": "Expose port",
+                "importance_score": 0.5,
+                "end_line": 248
+              },
+              "Health check": {
+                "level": 1,
+                "start_line": 249,
+                "title": "Health check",
+                "importance_score": 0.5,
+                "end_line": 252
+              },
+              "Start application": {
+                "level": 1,
+                "start_line": 253,
+                "title": "Start application",
+                "importance_score": 0.5,
+                "end_line": 256
+              },
+              "docker-compose.yml": {
+                "level": 3,
+                "start_line": 257,
+                "title": "docker-compose.yml",
+                "importance_score": 0.55,
+                "end_line": 309
+              },
+              "Deployment Configuration": {
+                "level": 2,
+                "start_line": 310,
+                "title": "Deployment Configuration",
+                "importance_score": 0.5,
+                "end_line": 311
+              },
+              "Production Settings": {
+                "level": 3,
+                "start_line": 312,
+                "title": "Production Settings",
+                "importance_score": 0.5,
+                "end_line": 315
+              },
+              "Production environment": {
+                "level": 1,
+                "start_line": 318,
+                "title": "Production environment",
+                "importance_score": 0.5,
+                "end_line": 322
+              },
+              "Security": {
+                "level": 3,
+                "start_line": 390,
+                "title": "Security",
+                "importance_score": 0.7,
+                "end_line": 395
+              },
+              "Performance": {
+                "level": 3,
+                "start_line": 396,
+                "title": "Performance",
+                "importance_score": 0.5,
+                "end_line": 401
+              },
+              "Nginx Configuration": {
+                "level": 4,
+                "start_line": 333,
+                "title": "Nginx Configuration",
+                "importance_score": 0.5,
+                "end_line": 358
+              },
+              "Configuration Validation": {
+                "level": 2,
+                "start_line": 359,
+                "title": "Configuration Validation",
+                "importance_score": 0.5,
+                "end_line": 362
+              },
+              "Required Configuration Check": {
+                "level": 3,
+                "start_line": 363,
+                "title": "Required Configuration Check",
+                "importance_score": 0.7,
+                "end_line": 368
+              },
+              "Configuration Errors": {
+                "level": 3,
+                "start_line": 369,
+                "title": "Configuration Errors",
+                "importance_score": 0.5,
+                "end_line": 372
+              },
+              "Database Connection Failed": {
+                "level": 4,
+                "start_line": 373,
+                "title": "Database Connection Failed",
+                "importance_score": 0.5,
+                "end_line": 377
+              },
+              "Redis Connection Failed": {
+                "level": 4,
+                "start_line": 378,
+                "title": "Redis Connection Failed",
+                "importance_score": 0.5,
+                "end_line": 382
+              },
+              "Invalid Configuration Values": {
+                "level": 4,
+                "start_line": 383,
+                "title": "Invalid Configuration Values",
+                "importance_score": 0.5,
+                "end_line": 387
+              },
+              "Configuration Best Practices": {
+                "level": 2,
+                "start_line": 388,
+                "title": "Configuration Best Practices",
+                "importance_score": 0.5,
+                "end_line": 389
+              },
+              "Monitoring": {
+                "level": 3,
+                "start_line": 402,
+                "title": "Monitoring",
+                "importance_score": 0.5,
+                "end_line": 406
+              }
+            },
+            "code_languages": [
+              "dockerfile",
+              "yaml",
+              "nginx",
+              "bash"
+            ],
+            "code_block_sizes": [
+              604,
+              566,
+              1260,
+              675,
+              998,
+              192,
+              536
+            ],
+            "formatting_density": 0.053951277480689244,
+            "table_rows": 1,
+            "avg_line_length": 19.675675675675677,
+            "avg_word_length": 7.921296296296297,
+            "max_indent_level": 8,
+            "avg_indent_level": 1.8544303797468353,
+            "reference_count": 8,
+            "unique_references": 7
+          },
+          "timestamp": "2025-08-19T21:09:15.571073"
+        },
+        {
+          "effectiveness": 100.0,
+          "features": {
+            "file_path": "test_documents/configuration_guide.md",
+            "content_length": 8415,
+            "line_count": 407,
+            "word_count": 864,
+            "char_count": 8415,
+            "timestamp": "2025-08-19T21:09:31.368467",
+            "header_count": 56,
+            "header_levels": [
+              1,
+              2,
+              2,
+              3,
+              4,
+              4,
+              4,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              2,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              2,
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              2,
+              3,
+              4,
+              1,
+              1,
+              1,
+              4,
+              2,
+              3,
+              3,
+              4,
+              4,
+              4,
+              2,
+              3,
+              3,
+              3
+            ],
+            "bullet_list_items": 25,
+            "numbered_list_items": 0,
+            "markdown_links": 0,
+            "url_links": 4,
+            "code_blocks": 7,
+            "inline_code": 36,
+            "bold_elements": 22,
+            "italic_elements": 44,
+            "document_type": "configuration",
+            "sections": {
+              "Configuration Guide": {
+                "level": 1,
+                "start_line": 0,
+                "title": "Configuration Guide",
+                "importance_score": 0.5,
+                "end_line": 1
+              },
+              "Overview": {
+                "level": 2,
+                "start_line": 2,
+                "title": "Overview",
+                "importance_score": 0.5,
+                "end_line": 5
+              },
+              "Environment Variables": {
+                "level": 4,
+                "start_line": 316,
+                "title": "Environment Variables",
+                "importance_score": 0.5,
+                "end_line": 317
+              },
+              "Required Variables": {
+                "level": 3,
+                "start_line": 8,
+                "title": "Required Variables",
+                "importance_score": 0.7,
+                "end_line": 11
+              },
+              "DATABASE_URL": {
+                "level": 4,
+                "start_line": 12,
+                "title": "DATABASE_URL",
+                "importance_score": 0.5,
+                "end_line": 17
+              },
+              "API_KEY": {
+                "level": 4,
+                "start_line": 18,
+                "title": "API_KEY",
+                "importance_score": 0.5,
+                "end_line": 23
+              },
+              "SECRET_KEY": {
+                "level": 4,
+                "start_line": 24,
+                "title": "SECRET_KEY",
+                "importance_score": 0.5,
+                "end_line": 29
+              },
+              "Optional Variables": {
+                "level": 3,
+                "start_line": 30,
+                "title": "Optional Variables",
+                "importance_score": 0.5,
+                "end_line": 31
+              },
+              "LOG_LEVEL": {
+                "level": 4,
+                "start_line": 32,
+                "title": "LOG_LEVEL",
+                "importance_score": 0.5,
+                "end_line": 38
+              },
+              "PORT": {
+                "level": 4,
+                "start_line": 39,
+                "title": "PORT",
+                "importance_score": 0.5,
+                "end_line": 45
+              },
+              "REDIS_URL": {
+                "level": 4,
+                "start_line": 46,
+                "title": "REDIS_URL",
+                "importance_score": 0.5,
+                "end_line": 52
+              },
+              "SMTP_HOST": {
+                "level": 4,
+                "start_line": 53,
+                "title": "SMTP_HOST",
+                "importance_score": 0.5,
+                "end_line": 58
+              },
+              "SMTP_PORT": {
+                "level": 4,
+                "start_line": 59,
+                "title": "SMTP_PORT",
+                "importance_score": 0.5,
+                "end_line": 65
+              },
+              "SMTP_USERNAME": {
+                "level": 4,
+                "start_line": 66,
+                "title": "SMTP_USERNAME",
+                "importance_score": 0.5,
+                "end_line": 70
+              },
+              "SMTP_PASSWORD": {
+                "level": 4,
+                "start_line": 71,
+                "title": "SMTP_PASSWORD",
+                "importance_score": 0.5,
+                "end_line": 75
+              },
+              "Configuration Files": {
+                "level": 2,
+                "start_line": 76,
+                "title": "Configuration Files",
+                "importance_score": 0.5,
+                "end_line": 77
+              },
+              "app.yaml": {
+                "level": 3,
+                "start_line": 78,
+                "title": "app.yaml",
+                "importance_score": 0.5,
+                "end_line": 82
+              },
+              "Application settings": {
+                "level": 1,
+                "start_line": 83,
+                "title": "Application settings",
+                "importance_score": 0.5,
+                "end_line": 89
+              },
+              "Server settings": {
+                "level": 1,
+                "start_line": 90,
+                "title": "Server settings",
+                "importance_score": 0.5,
+                "end_line": 96
+              },
+              "Database settings": {
+                "level": 1,
+                "start_line": 97,
+                "title": "Database settings",
+                "importance_score": 0.5,
+                "end_line": 104
+              },
+              "Cache settings": {
+                "level": 1,
+                "start_line": 105,
+                "title": "Cache settings",
+                "importance_score": 0.5,
+                "end_line": 110
+              },
+              "Security settings": {
+                "level": 1,
+                "start_line": 111,
+                "title": "Security settings",
+                "importance_score": 0.7,
+                "end_line": 119
+              },
+              "database.yaml": {
+                "level": 3,
+                "start_line": 120,
+                "title": "database.yaml",
+                "importance_score": 0.5,
+                "end_line": 124
+              },
+              "Database connection settings": {
+                "level": 1,
+                "start_line": 125,
+                "title": "Database connection settings",
+                "importance_score": 0.5,
+                "end_line": 134
+              },
+              "Connection pool settings": {
+                "level": 1,
+                "start_line": 135,
+                "title": "Connection pool settings",
+                "importance_score": 0.5,
+                "end_line": 142
+              },
+              "Migration settings": {
+                "level": 1,
+                "start_line": 143,
+                "title": "Migration settings",
+                "importance_score": 0.5,
+                "end_line": 148
+              },
+              "Backup settings": {
+                "level": 1,
+                "start_line": 149,
+                "title": "Backup settings",
+                "importance_score": 0.5,
+                "end_line": 156
+              },
+              "logging.yaml": {
+                "level": 3,
+                "start_line": 157,
+                "title": "logging.yaml",
+                "importance_score": 0.5,
+                "end_line": 161
+              },
+              "Logging configuration": {
+                "level": 1,
+                "start_line": 162,
+                "title": "Logging configuration",
+                "importance_score": 0.55,
+                "end_line": 218
+              },
+              "Docker Configuration": {
+                "level": 2,
+                "start_line": 219,
+                "title": "Docker Configuration",
+                "importance_score": 0.5,
+                "end_line": 220
+              },
+              "Dockerfile": {
+                "level": 3,
+                "start_line": 221,
+                "title": "Dockerfile",
+                "importance_score": 0.5,
+                "end_line": 227
+              },
+              "Install system dependencies": {
+                "level": 1,
+                "start_line": 228,
+                "title": "Install system dependencies",
+                "importance_score": 0.5,
+                "end_line": 233
+              },
+              "Copy requirements and install Python dependencies": {
+                "level": 1,
+                "start_line": 234,
+                "title": "Copy requirements and install Python dependencies",
+                "importance_score": 0.5,
+                "end_line": 237
+              },
+              "Copy application code": {
+                "level": 1,
+                "start_line": 238,
+                "title": "Copy application code",
+                "importance_score": 0.5,
+                "end_line": 240
+              },
+              "Create non-root user": {
+                "level": 1,
+                "start_line": 241,
+                "title": "Create non-root user",
+                "importance_score": 0.5,
+                "end_line": 245
+              },
+              "Expose port": {
+                "level": 1,
+                "start_line": 246,
+                "title": "Expose port",
+                "importance_score": 0.5,
+                "end_line": 248
+              },
+              "Health check": {
+                "level": 1,
+                "start_line": 249,
+                "title": "Health check",
+                "importance_score": 0.5,
+                "end_line": 252
+              },
+              "Start application": {
+                "level": 1,
+                "start_line": 253,
+                "title": "Start application",
+                "importance_score": 0.5,
+                "end_line": 256
+              },
+              "docker-compose.yml": {
+                "level": 3,
+                "start_line": 257,
+                "title": "docker-compose.yml",
+                "importance_score": 0.55,
+                "end_line": 309
+              },
+              "Deployment Configuration": {
+                "level": 2,
+                "start_line": 310,
+                "title": "Deployment Configuration",
+                "importance_score": 0.5,
+                "end_line": 311
+              },
+              "Production Settings": {
+                "level": 3,
+                "start_line": 312,
+                "title": "Production Settings",
+                "importance_score": 0.5,
+                "end_line": 315
+              },
+              "Production environment": {
+                "level": 1,
+                "start_line": 318,
+                "title": "Production environment",
+                "importance_score": 0.5,
+                "end_line": 322
+              },
+              "Security": {
+                "level": 3,
+                "start_line": 390,
+                "title": "Security",
+                "importance_score": 0.7,
+                "end_line": 395
+              },
+              "Performance": {
+                "level": 3,
+                "start_line": 396,
+                "title": "Performance",
+                "importance_score": 0.5,
+                "end_line": 401
+              },
+              "Nginx Configuration": {
+                "level": 4,
+                "start_line": 333,
+                "title": "Nginx Configuration",
+                "importance_score": 0.5,
+                "end_line": 358
+              },
+              "Configuration Validation": {
+                "level": 2,
+                "start_line": 359,
+                "title": "Configuration Validation",
+                "importance_score": 0.5,
+                "end_line": 362
+              },
+              "Required Configuration Check": {
+                "level": 3,
+                "start_line": 363,
+                "title": "Required Configuration Check",
+                "importance_score": 0.7,
+                "end_line": 368
+              },
+              "Configuration Errors": {
+                "level": 3,
+                "start_line": 369,
+                "title": "Configuration Errors",
+                "importance_score": 0.5,
+                "end_line": 372
+              },
+              "Database Connection Failed": {
+                "level": 4,
+                "start_line": 373,
+                "title": "Database Connection Failed",
+                "importance_score": 0.5,
+                "end_line": 377
+              },
+              "Redis Connection Failed": {
+                "level": 4,
+                "start_line": 378,
+                "title": "Redis Connection Failed",
+                "importance_score": 0.5,
+                "end_line": 382
+              },
+              "Invalid Configuration Values": {
+                "level": 4,
+                "start_line": 383,
+                "title": "Invalid Configuration Values",
+                "importance_score": 0.5,
+                "end_line": 387
+              },
+              "Configuration Best Practices": {
+                "level": 2,
+                "start_line": 388,
+                "title": "Configuration Best Practices",
+                "importance_score": 0.5,
+                "end_line": 389
+              },
+              "Monitoring": {
+                "level": 3,
+                "start_line": 402,
+                "title": "Monitoring",
+                "importance_score": 0.5,
+                "end_line": 406
+              }
+            },
+            "code_languages": [
+              "dockerfile",
+              "yaml",
+              "nginx",
+              "bash"
+            ],
+            "code_block_sizes": [
+              604,
+              566,
+              1260,
+              675,
+              998,
+              192,
+              536
+            ],
+            "formatting_density": 0.053951277480689244,
+            "table_rows": 1,
+            "avg_line_length": 19.675675675675677,
+            "avg_word_length": 7.921296296296297,
+            "max_indent_level": 8,
+            "avg_indent_level": 1.8544303797468353,
+            "reference_count": 8,
+            "unique_references": 7
+          },
+          "timestamp": "2025-08-19T21:09:31.381299"
         }
       ],
       "installation_guide": [
@@ -7458,9 +11668,17 @@
       "Technical Documentation": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Overview": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5,
@@ -7474,9 +11692,13 @@
       "System Architecture": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Core Services": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7484,9 +11706,13 @@
       "Database Layer": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "API Gateway": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7494,9 +11720,13 @@
       "Implementation Details": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Design Patterns": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7504,14 +11734,22 @@
       "Code Structure": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Configuration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Environment Variables": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5,
@@ -7525,9 +11763,15 @@
         0.5,
         0.5,
         0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Deployment": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7535,9 +11779,13 @@
       "Build the image": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Run the container": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7545,9 +11793,13 @@
       "Monitoring and Logging": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Metrics": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7555,9 +11807,15 @@
       "Logging": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Security": [
+        0.7,
+        0.7,
+        0.7,
+        0.7,
         0.7,
         0.7,
         0.7,
@@ -7571,9 +11829,15 @@
         0.5,
         0.5,
         0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Authorization": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7581,9 +11845,13 @@
       "Data Protection": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Performance Optimization": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7591,14 +11859,20 @@
       "Caching": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Database Optimization": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Code Optimization": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7609,9 +11883,15 @@
         0.5,
         0.5,
         0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Performance Issues": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7619,9 +11899,13 @@
       "Connectivity Issues": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Data Issues": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7629,9 +11913,13 @@
       "API Reference": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Base URL": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7639,9 +11927,13 @@
       "API Key Authentication": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "JWT Authentication": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7649,9 +11941,13 @@
       "Endpoints": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Users": [
+        0.6,
+        0.6,
         0.6,
         0.6,
         0.6
@@ -7659,9 +11955,13 @@
       "GET /users": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "POST /users": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7669,9 +11969,13 @@
       "GET /users/{id}": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "PUT /users/{id}": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7679,9 +11983,13 @@
       "DELETE /users/{id}": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Data Records": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7689,9 +11997,13 @@
       "GET /data": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "POST /data": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7699,9 +12011,13 @@
       "Notifications": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "GET /notifications": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7709,9 +12025,13 @@
       "POST /notifications": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "PUT /notifications/{id}/read": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7719,9 +12039,13 @@
       "Error Handling": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Rate Limiting": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7729,9 +12053,13 @@
       "SDK and Libraries": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Python": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7739,9 +12067,13 @@
       "JavaScript": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "cURL Examples": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7749,9 +12081,13 @@
       "Get users": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Create user": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7759,9 +12095,13 @@
       "Configuration Guide": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Required Variables": [
+        0.7,
+        0.7,
         0.7,
         0.7,
         0.7
@@ -7769,9 +12109,13 @@
       "DATABASE_URL": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "API_KEY": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7779,9 +12123,13 @@
       "SECRET_KEY": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Optional Variables": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7789,9 +12137,13 @@
       "LOG_LEVEL": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "PORT": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7799,9 +12151,13 @@
       "REDIS_URL": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "SMTP_HOST": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7809,9 +12165,13 @@
       "SMTP_PORT": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "SMTP_USERNAME": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7819,9 +12179,13 @@
       "SMTP_PASSWORD": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "app.yaml": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7829,9 +12193,13 @@
       "Application settings": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Server settings": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7839,9 +12207,13 @@
       "Database settings": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Cache settings": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7849,9 +12221,13 @@
       "Security settings": [
         0.7,
         0.7,
+        0.7,
+        0.7,
         0.7
       ],
       "database.yaml": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7859,9 +12235,13 @@
       "Database connection settings": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Connection pool settings": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7869,9 +12249,13 @@
       "Migration settings": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Backup settings": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7879,9 +12263,13 @@
       "logging.yaml": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Logging configuration": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -7889,9 +12277,13 @@
       "Docker Configuration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Dockerfile": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7899,9 +12291,13 @@
       "Install system dependencies": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Copy requirements and install Python dependencies": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7909,9 +12305,13 @@
       "Copy application code": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Create non-root user": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7919,9 +12319,13 @@
       "Expose port": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Health check": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7929,9 +12333,13 @@
       "Start application": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "docker-compose.yml": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -7939,9 +12347,13 @@
       "Deployment Configuration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Production Settings": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7949,9 +12361,13 @@
       "Production environment": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Performance": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7959,9 +12375,13 @@
       "Nginx Configuration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Configuration Validation": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7969,9 +12389,13 @@
       "Required Configuration Check": [
         0.7,
         0.7,
+        0.7,
+        0.7,
         0.7
       ],
       "Configuration Errors": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7979,9 +12403,13 @@
       "Database Connection Failed": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Redis Connection Failed": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7989,9 +12417,13 @@
       "Invalid Configuration Values": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Configuration Best Practices": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -7999,9 +12431,13 @@
       "Monitoring": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Getting Started Tutorial": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8009,9 +12445,13 @@
       "Table of Contents": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Account Setup": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8019,9 +12459,13 @@
       "Creating Your Account": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Setting Up Your Profile": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8029,9 +12473,13 @@
       "Basic Configuration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Initial Configuration": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8039,9 +12487,13 @@
       "Workspace Setup": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Integration Setup": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8049,9 +12501,13 @@
       "Your First Project": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Project Creation": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8059,9 +12515,13 @@
       "Project Structure": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Adding Data Sources": [
+        0.6,
+        0.6,
         0.6,
         0.6,
         0.6
@@ -8069,9 +12529,13 @@
       "Setting Up Processing": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "# Basic processing workflow": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8079,9 +12543,13 @@
       "Working with Data": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Data Management": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8089,9 +12557,13 @@
       "Data Import Strategies": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Data Quality Management": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8099,9 +12571,13 @@
       "# Example validation configuration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Analytics and Visualization": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8109,9 +12585,13 @@
       "Creating Your First Analysis": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Advanced Analytics Features": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8119,9 +12599,13 @@
       "Advanced Features": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Automation": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8129,9 +12613,13 @@
       "Workflow Automation": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "# Automation configuration": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8139,9 +12627,13 @@
       "API Integration": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "# Python example for API interaction": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8149,9 +12641,13 @@
       "# Authentication": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "# Get project data": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8159,9 +12655,13 @@
       "Collaboration Features": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Team Collaboration": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8169,9 +12669,13 @@
       "# Permission structure example": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Version Control": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8179,9 +12683,13 @@
       "Best Practices": [
         0.6,
         0.6,
+        0.6,
+        0.6,
         0.6
       ],
       "Data Management Best Practices": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8189,9 +12697,13 @@
       "Workflow Best Practices": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Common Issues and Solutions": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8199,9 +12711,13 @@
       "Data Import Issues": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Processing Issues": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8209,9 +12725,13 @@
       "Access and Permission Issues": [
         0.5,
         0.5,
+        0.5,
+        0.5,
         0.5
       ],
       "Getting Help": [
+        0.5,
+        0.5,
         0.5,
         0.5,
         0.5
@@ -8219,9 +12739,13 @@
       "Support Resources": [
         0.55,
         0.55,
+        0.55,
+        0.55,
         0.55
       ],
       "Contact Information": [
+        0.55,
+        0.55,
         0.55,
         0.55,
         0.55
@@ -8232,11 +12756,11 @@
     "editing_behavior": {}
   },
   "metrics": {
-    "predictions_made": 36,
+    "predictions_made": 52,
     "successful_optimizations": 0,
     "pattern_accuracy": 0.0,
-    "learning_iterations": 45
+    "learning_iterations": 65
   },
   "user_preferences": {},
-  "last_updated": "2025-08-19T20:09:57.822526"
+  "last_updated": "2025-08-19T21:09:39.255251"
 }

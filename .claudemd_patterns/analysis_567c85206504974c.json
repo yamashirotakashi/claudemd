@@ -5,7 +5,7 @@
     "line_count": 192,
     "word_count": 555,
     "char_count": 4309,
-    "timestamp": "2025-08-19T19:06:19.280063",
+    "timestamp": "2025-08-19T21:09:25.051125",
     "header_count": 30,
     "header_levels": [
       1,
@@ -261,8 +261,8 @@
       }
     },
     "code_languages": [
-      "bash",
-      "yaml"
+      "yaml",
+      "bash"
     ],
     "code_block_sizes": [
       344,
@@ -293,6 +293,7 @@
       ],
       "common_optimization_times": [
         "19:00-20:00",
+        "21:00-22:00",
         "18:00-19:00"
       ]
     }
@@ -302,10 +303,10 @@
     "priority_sections": [],
     "expected_reduction": 100.0,
     "confidence_level": 1.0,
-    "ml_expected_reduction": 100.0,
-    "ml_confidence": 0.5,
+    "ml_expected_reduction": 76.4520280649313,
+    "ml_confidence": 1.0,
     "cluster_id": 0
   },
-  "confidence": 0.85,
-  "timestamp": "2025-08-19T19:06:19.347160"
+  "confidence": 1.0,
+  "timestamp": "2025-08-19T21:09:25.142402"
 }
