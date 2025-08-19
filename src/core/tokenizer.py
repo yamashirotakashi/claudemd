@@ -736,6 +736,9 @@ class ClaudeMdTokenizer:
     
     def __init__(self):
         """Initialize the tokenizer with security validation and Smart Analysis Engine."""
+        import logging
+        self.logger = logging.getLogger(__name__)
+        
         self.seen_content = {}  # For deduplication
         self.optimization_stats = {}
         
